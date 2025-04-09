@@ -1,0 +1,18 @@
+<button id="convert-btn">Convert & View Sheet Music</button>
+
+<iframe id="sheet-music-viewer" width="100%" height="500px" frameborder="0"></iframe>
+
+<script>
+  document.getElementById("convert-btn").addEventListener("click", async function() {
+      const response = await fetch("/convert-midi/", {
+          method: "POST"
+      });
+
+      const data = await response.json();
+      if (data.success) {
+          document.getElementById("sheet-music-viewer").src = `https://flat.io/embed/score/${data.scoreId}`;
+      } else {
+          alert("Error processing MIDI file");
+      }
+  });
+</script>

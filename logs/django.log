@@ -1,0 +1,1488 @@
+INFO 2025-03-28 00:21:33,317 autoreload 68505 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-28 00:21:42,910 basehttp 68505 123145590329344 "GET / HTTP/1.1" 200 14243
+ERROR 2025-03-28 00:21:47,724 log 68505 123145590329344 Internal Server Error: /run-script/
+ERROR 2025-03-28 00:21:47,724 basehttp 68505 123145590329344 "POST /run-script/ HTTP/1.1" 500 117
+INFO 2025-03-28 00:22:06,188 autoreload 68513 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-28 00:22:13,464 basehttp 68513 123145538916352 "GET / HTTP/1.1" 200 14243
+ERROR 2025-03-28 00:22:18,291 log 68513 123145538916352 Internal Server Error: /run-script/
+ERROR 2025-03-28 00:22:18,291 basehttp 68513 123145538916352 "POST /run-script/ HTTP/1.1" 500 117
+INFO 2025-03-29 14:04:21,888 autoreload 80405 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:05:36,043 basehttp 80405 123145409572864 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 14:05:36,241 basehttp 80405 123145409572864 "GET /static/base.css HTTP/1.1" 200 5144
+INFO 2025-03-29 14:06:12,845 views 80405 123145409572864 Script completed with return code 0
+ERROR 2025-03-29 14:06:12,853 log 80405 123145409572864 Internal Server Error: /run-script/
+ERROR 2025-03-29 14:06:12,854 basehttp 80405 123145409572864 "POST /run-script/ HTTP/1.1" 500 6401
+INFO 2025-03-29 14:06:32,683 autoreload 80405 140704325959104 /Users/user/Documents/capstone/webapps/settings.py changed, reloading.
+INFO 2025-03-29 14:06:34,171 autoreload 80434 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:07:08,572 autoreload 80434 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:07:09,313 autoreload 80443 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:07:46,614 autoreload 80443 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:07:47,445 autoreload 80447 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:10:21,987 autoreload 80469 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:10:35,412 basehttp 80469 123145575407616 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 14:10:35,438 basehttp 80469 123145575407616 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 14:10:46,437 views 80469 123145575407616 Script completed with return code 0
+ERROR 2025-03-29 14:10:46,438 log 80469 123145575407616 Internal Server Error: /run-script/
+ERROR 2025-03-29 14:10:46,439 basehttp 80469 123145575407616 "POST /run-script/ HTTP/1.1" 500 6401
+INFO 2025-03-29 14:12:57,319 autoreload 80469 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:12:58,058 autoreload 80496 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:13:31,263 autoreload 80496 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:13:31,981 autoreload 80503 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:14:03,165 autoreload 80503 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:14:04,480 autoreload 80517 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:14:08,810 basehttp 80517 123145370361856 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 14:14:08,829 basehttp 80517 123145370361856 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 14:14:23,209 views 80517 123145370361856 Script output: This is result from .py {'status': 'success', 'midi_url': '/Users/user/Documents/capstone/midi_files/melody_anonymous_1743272062.mid', 'notes': [(74, 'D5'), (74, 'D5'), (81, 'A5'), (81, 'A5'), (83, 'B5'), (83, 'B5'), (81, 'A5'), (79, 'G5'), (79, 'G5'), (78, 'F♯5'), (78, 'F♯5'), (76, 'E5'), (76, 'E5')], 'musicxml': None}
+{'status': 'success', 'midi_url': '/Users/user/Documents/capstone/midi_files/melody_anonymous_1743272062.mid', 'notes': [(74, 'D5'), (74, 'D5'), (81, 'A5'), (81, 'A5'), (83, 'B5'), (83, 'B5'), (81, 'A5'), (79, 'G5'), (79, 'G5'), (78, 'F♯5'), (78, 'F♯5'), (76, 'E5'), (76, 'E5')], 'musicxml': '<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">\n<score-partwise version="4.0">\n  <movement-title>Music21 Fragment</movement-title>\n  <identification>\n    <creator type="composer">Music21</creator>\n    <encoding>\n      <encoding-date>2025-03-29</encoding-date>\n      <software>music21 v.9.5.0</software>\n    </encoding>\n  </identification>\n  <defaults>\n    <scaling>\n      <millimeters>7</millimeters>\n      <tenths>40</tenths>\n    </scaling>\n  </defaults>\n  <part-list>\n    <score-part id="P87795c1065898f580128343cc6869d25">\n      <part-name>Recorder</part-name>\n      <part-abbreviation>Rec</part-abbreviation>\n      <score-instrument id="I9921cbe907aaa818805781dc93055fb0">\n        <instrument-name>Recorder</instrument-name>\n        <instrument-abbreviation>Rec</instrument-abbreviation>\n      </score-instrument>\n      <midi-instrument id="I9921cbe907aaa818805781dc93055fb0">\n        <midi-channel>1</midi-channel>\n        <midi-program>75</midi-program>\n      </midi-instrument>\n    </score-part>\n  </part-list>\n  <!--=========================== Part 1 ===========================-->\n  <part id="P87795c1065898f580128343cc6869d25">\n    <!--========================= Measure 1 ==========================-->\n    <measure implicit="no" number="1">\n      <attributes>\n        <divisions>10080</divisions>\n        <time>\n          <beats>4</beats>\n          <beat-type>4</beat-type>\n        </time>\n        <clef>\n          <sign>G</sign>\n          <line>2</line>\n        </clef>\n      </attributes>\n      <direction>\n        <direction-type>\n          <metronome parentheses="no">\n            <beat-unit>quarter</beat-unit>\n            <per-minute>120</per-minute>\n          </metronome>\n        </direction-type>\n        <sound tempo="120" />\n      </direction>\n      <note dynamics="111.11">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n    </measure>\n    <!--========================= Measure 2 ==========================-->\n    <measure implicit="no" number="2">\n      <note dynamics="111.11">\n        <pitch>\n          <step>B</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>B</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n    </measure>\n    <!--========================= Measure 3 ==========================-->\n    <measure implicit="no" number="3">\n      <note dynamics="111.11">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>F</step>\n          <alter>1</alter>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n        <accidental>sharp</accidental>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>F</step>\n          <alter>1</alter>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n    </measure>\n    <!--========================= Measure 4 ==========================-->\n    <measure implicit="no" number="4">\n      <note dynamics="111.11">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note>\n        <rest />\n        <duration>30240</duration>\n        <type>half</type>\n        <dot />\n      </note>\n      <barline location="right">\n        <bar-style>light-heavy</bar-style>\n      </barline>\n    </measure>\n  </part>\n</score-partwise>', 'musicxml_path': '/Users/user/Documents/capstone/midi_files/melody_anonymous_1743272062.musicxml'}
+
+ERROR 2025-03-29 14:14:23,211 views 80517 123145370361856 Script error output: 
+INFO 2025-03-29 14:14:23,211 views 80517 123145370361856 Script completed with return code 0
+ERROR 2025-03-29 14:14:23,213 log 80517 123145370361856 Internal Server Error: /run-script/
+ERROR 2025-03-29 14:14:23,214 basehttp 80517 123145370361856 "POST /run-script/ HTTP/1.1" 500 6401
+INFO 2025-03-29 14:26:37,822 autoreload 80517 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:26:39,424 autoreload 80627 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:27:01,770 autoreload 80627 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:27:02,588 autoreload 80634 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:27:11,417 autoreload 80634 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:27:12,211 autoreload 80636 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:27:14,808 autoreload 80636 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:27:15,548 autoreload 80638 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:27:22,354 basehttp 80638 123145536929792 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 14:27:22,368 basehttp 80638 123145536929792 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 14:27:34,280 views 80638 123145536929792 Script output: This is result from .py {'status': 'success', 'midi_url': '/Users/user/Documents/capstone/midi_files/melody_anonymous_1743272853.mid', 'notes': [(74, 'D5'), (74, 'D5'), (81, 'A5'), (81, 'A5'), (83, 'B5'), (83, 'B5'), (81, 'A5'), (79, 'G5'), (79, 'G5'), (78, 'F♯5'), (78, 'F♯5'), (76, 'E5'), (76, 'E5')], 'musicxml': None}
+{'status': 'success', 'midi_url': '/Users/user/Documents/capstone/midi_files/melody_anonymous_1743272853.mid', 'notes': [(74, 'D5'), (74, 'D5'), (81, 'A5'), (81, 'A5'), (83, 'B5'), (83, 'B5'), (81, 'A5'), (79, 'G5'), (79, 'G5'), (78, 'F♯5'), (78, 'F♯5'), (76, 'E5'), (76, 'E5')], 'musicxml': '<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">\n<score-partwise version="4.0">\n  <movement-title>Music21 Fragment</movement-title>\n  <identification>\n    <creator type="composer">Music21</creator>\n    <encoding>\n      <encoding-date>2025-03-29</encoding-date>\n      <software>music21 v.9.5.0</software>\n    </encoding>\n  </identification>\n  <defaults>\n    <scaling>\n      <millimeters>7</millimeters>\n      <tenths>40</tenths>\n    </scaling>\n  </defaults>\n  <part-list>\n    <score-part id="P8cdf1b2acc0e18d2fb0a833670fd41d3">\n      <part-name>Recorder</part-name>\n      <part-abbreviation>Rec</part-abbreviation>\n      <score-instrument id="I55396fcc24d7ab651da473e035c38de0">\n        <instrument-name>Recorder</instrument-name>\n        <instrument-abbreviation>Rec</instrument-abbreviation>\n      </score-instrument>\n      <midi-instrument id="I55396fcc24d7ab651da473e035c38de0">\n        <midi-channel>1</midi-channel>\n        <midi-program>75</midi-program>\n      </midi-instrument>\n    </score-part>\n  </part-list>\n  <!--=========================== Part 1 ===========================-->\n  <part id="P8cdf1b2acc0e18d2fb0a833670fd41d3">\n    <!--========================= Measure 1 ==========================-->\n    <measure implicit="no" number="1">\n      <attributes>\n        <divisions>10080</divisions>\n        <time>\n          <beats>4</beats>\n          <beat-type>4</beat-type>\n        </time>\n        <clef>\n          <sign>G</sign>\n          <line>2</line>\n        </clef>\n      </attributes>\n      <direction>\n        <direction-type>\n          <metronome parentheses="no">\n            <beat-unit>quarter</beat-unit>\n            <per-minute>120</per-minute>\n          </metronome>\n        </direction-type>\n        <sound tempo="120" />\n      </direction>\n      <note dynamics="111.11">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n    </measure>\n    <!--========================= Measure 2 ==========================-->\n    <measure implicit="no" number="2">\n      <note dynamics="111.11">\n        <pitch>\n          <step>B</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>B</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n    </measure>\n    <!--========================= Measure 3 ==========================-->\n    <measure implicit="no" number="3">\n      <note dynamics="111.11">\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>F</step>\n          <alter>1</alter>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n        <accidental>sharp</accidental>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>F</step>\n          <alter>1</alter>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note dynamics="111.11">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n    </measure>\n    <!--========================= Measure 4 ==========================-->\n    <measure implicit="no" number="4">\n      <note dynamics="111.11">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n        </pitch>\n        <duration>10080</duration>\n        <type>quarter</type>\n      </note>\n      <note>\n        <rest />\n        <duration>30240</duration>\n        <type>half</type>\n        <dot />\n      </note>\n      <barline location="right">\n        <bar-style>light-heavy</bar-style>\n      </barline>\n    </measure>\n  </part>\n</score-partwise>', 'musicxml_path': '/Users/user/Documents/capstone/midi_files/melody_anonymous_1743272853.musicxml'}
+
+ERROR 2025-03-29 14:27:34,282 views 80638 123145536929792 Script error output: 
+INFO 2025-03-29 14:27:34,282 views 80638 123145536929792 Script completed with return code 0
+INFO 2025-03-29 14:27:34,283 views 80638 123145536929792 Before Data
+ERROR 2025-03-29 14:27:34,284 log 80638 123145536929792 Internal Server Error: /run-script/
+ERROR 2025-03-29 14:27:34,284 basehttp 80638 123145536929792 "POST /run-script/ HTTP/1.1" 500 6401
+INFO 2025-03-29 14:34:13,251 autoreload 80638 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:34:14,854 autoreload 80720 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:35:55,817 autoreload 80720 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:35:57,315 autoreload 80752 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:36:09,461 autoreload 80752 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:36:10,764 autoreload 80757 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:36:13,473 autoreload 80757 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:36:14,267 autoreload 80758 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:36:24,001 autoreload 80758 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:36:24,782 autoreload 80760 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:36:33,609 autoreload 80760 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:36:34,718 autoreload 80762 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:36:41,484 autoreload 80762 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:36:42,259 autoreload 80765 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:36:48,983 autoreload 80765 140704325959104 /Users/user/Documents/capstone/write_on_cue/models.py changed, reloading.
+INFO 2025-03-29 14:36:49,803 autoreload 80767 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:37:10,167 autoreload 80780 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:37:13,191 basehttp 80780 123145476055040 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 14:37:13,208 basehttp 80780 123145476055040 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 14:37:23,499 views 80780 123145476055040 Script output: This is result from .py {'status': 'success', 'midi_url': '/Users/user/Documents/capstone/midi_files/melody_anonymous_1743273443.mid', 'notes': [(74, 'D5'), (74, 'D5'), (81, 'A5'), (81, 'A5'), (83, 'B5'), (83, 'B5'), (81, 'A5'), (79, 'G5'), (79, 'G5'), (78, 'F♯5'), (78, 'F♯5'), (76, 'E5'), (76, 'E5')]}
+{'status': 'success', 'midi_url': '/Users/user/Documents/capstone/midi_files/melody_anonymous_1743273443.mid', 'notes': [(74, 'D5'), (74, 'D5'), (81, 'A5'), (81, 'A5'), (83, 'B5'), (83, 'B5'), (81, 'A5'), (79, 'G5'), (79, 'G5'), (78, 'F♯5'), (78, 'F♯5'), (76, 'E5'), (76, 'E5')]}
+
+ERROR 2025-03-29 14:37:23,500 views 80780 123145476055040 Script error output: 
+INFO 2025-03-29 14:37:23,500 views 80780 123145476055040 Script completed with return code 0
+INFO 2025-03-29 14:37:23,500 views 80780 123145476055040 Before Data
+ERROR 2025-03-29 14:37:23,501 log 80780 123145476055040 Internal Server Error: /run-script/
+ERROR 2025-03-29 14:37:23,501 basehttp 80780 123145476055040 "POST /run-script/ HTTP/1.1" 500 675
+INFO 2025-03-29 14:51:20,736 autoreload 80780 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:51:21,797 autoreload 80928 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:51:55,049 autoreload 80928 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:51:55,787 autoreload 80947 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:51:58,850 basehttp 80947 123145371242496 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 14:51:58,866 basehttp 80947 123145371242496 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 14:52:09,052 views 80947 123145371242496 Script output: This is result from .py /Users/user/Documents/capstone/midi_files/melody_anonymous_1743274328.mid
+/Users/user/Documents/capstone/midi_files/melody_anonymous_1743274328.mid
+
+ERROR 2025-03-29 14:52:09,052 views 80947 123145371242496 Script error output: 
+INFO 2025-03-29 14:52:09,053 views 80947 123145371242496 Script completed with return code 0
+INFO 2025-03-29 14:52:09,053 views 80947 123145371242496 Called upload to flat
+ERROR 2025-03-29 14:52:09,053 views 80947 123145371242496 Error: [Errno 2] No such file or directory: 'This is result from .py /Users/user/Documents/capstone/midi_files/melody_anonymous_1743274328.mid\n/Users/user/Documents/capstone/midi_files/melody_anonymous_1743274328.mid\n'
+INFO 2025-03-29 14:52:09,054 basehttp 80947 123145371242496 "POST /run-script/ HTTP/1.1" 200 249
+INFO 2025-03-29 14:53:09,108 autoreload 80947 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:53:09,923 autoreload 80961 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:53:15,603 autoreload 80961 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:53:16,385 autoreload 80965 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:54:16,134 autoreload 80965 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:54:16,936 autoreload 80973 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:54:18,796 basehttp 80973 123145495035904 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 14:54:28,963 views 80973 123145495035904 Script output: This is result from .py /Users/user/Documents/capstone/midi_files/melody_anonymous_1743274468.mid
+/Users/user/Documents/capstone/midi_files/melody_anonymous_1743274468.mid
+
+ERROR 2025-03-29 14:54:28,963 views 80973 123145495035904 Script error output: 
+INFO 2025-03-29 14:54:28,963 views 80973 123145495035904 Script completed with return code 0
+INFO 2025-03-29 14:54:28,964 views 80973 123145495035904 Called upload to flat
+ERROR 2025-03-29 14:54:28,964 views 80973 123145495035904 Error: [Errno 2] No such file or directory: 'This is result from .py /Users/user/Documents/capstone/midi_files/melody_anonymous_1743274468.mid\n/Users/user/Documents/capstone/midi_files/melody_anonymous_1743274468.mid\n'
+INFO 2025-03-29 14:54:28,965 basehttp 80973 123145495035904 "POST /run-script/ HTTP/1.1" 200 249
+INFO 2025-03-29 14:54:53,418 autoreload 80973 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 14:54:54,286 autoreload 80983 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 14:54:54,787 basehttp 80983 123145480589312 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 14:55:03,944 views 80983 123145480589312 Script output: This is result from .py /Users/user/Documents/capstone/midi_files/melody_anonymous_1743274503.mid
+/Users/user/Documents/capstone/midi_files/melody_anonymous_1743274503.mid
+
+ERROR 2025-03-29 14:55:03,944 views 80983 123145480589312 Script error output: 
+INFO 2025-03-29 14:55:03,944 views 80983 123145480589312 Script completed with return code 0
+INFO 2025-03-29 14:55:03,945 views 80983 123145480589312 Called upload to flat
+INFO 2025-03-29 14:55:03,945 views 80983 123145480589312 header
+ERROR 2025-03-29 14:55:03,945 views 80983 123145480589312 Error: [Errno 2] No such file or directory: 'This is result from .py /Users/user/Documents/capstone/midi_files/melody_anonymous_1743274503.mid\n/Users/user/Documents/capstone/midi_files/melody_anonymous_1743274503.mid\n'
+INFO 2025-03-29 14:55:03,946 basehttp 80983 123145480589312 "POST /run-script/ HTTP/1.1" 200 249
+INFO 2025-03-29 14:58:41,641 basehttp 80983 123145480589312 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 14:58:41,671 basehttp 80983 123145480589312 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 14:58:52,004 views 80983 123145480589312 Script output: /Users/user/Documents/capstone
+melody_anonymous_1743274731.mid
+This is result from .py /Users/user/Documents/capstone/midi_files/melody_anonymous_1743274731.mid
+/Users/user/Documents/capstone/midi_files/melody_anonymous_1743274731.mid
+
+ERROR 2025-03-29 14:58:52,005 views 80983 123145480589312 Script error output: 
+INFO 2025-03-29 14:58:52,005 views 80983 123145480589312 Script completed with return code 0
+INFO 2025-03-29 14:58:52,006 views 80983 123145480589312 Called upload to flat
+INFO 2025-03-29 14:58:52,006 views 80983 123145480589312 header
+ERROR 2025-03-29 14:58:52,006 views 80983 123145480589312 Error: [Errno 2] No such file or directory: '/Users/user/Documents/capstone\nmelody_anonymous_1743274731.mid\nThis is result from .py /Users/user/Documents/capstone/midi_files/melody_anonymous_1743274731.mid\n/Users/user/Documents/capstone/midi_files/melody_anonymous_1743274731.mid\n'
+INFO 2025-03-29 14:58:52,007 basehttp 80983 123145480589312 "POST /run-script/ HTTP/1.1" 200 316
+INFO 2025-03-29 14:59:18,976 basehttp 80983 123145480589312 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 14:59:28,175 views 80983 123145480589312 Script output: here
+/Users/user/Documents/capstone
+melody_anonymous_1743274767.mid
+This is result from .py /Users/user/Documents/capstone/midi_files/melody_anonymous_1743274767.mid
+/Users/user/Documents/capstone/midi_files/melody_anonymous_1743274767.mid
+
+ERROR 2025-03-29 14:59:28,176 views 80983 123145480589312 Script error output: 
+INFO 2025-03-29 14:59:28,176 views 80983 123145480589312 Script completed with return code 0
+INFO 2025-03-29 14:59:28,176 views 80983 123145480589312 Called upload to flat
+INFO 2025-03-29 14:59:28,176 views 80983 123145480589312 header
+ERROR 2025-03-29 14:59:28,176 views 80983 123145480589312 Error: [Errno 2] No such file or directory: 'here\n/Users/user/Documents/capstone\nmelody_anonymous_1743274767.mid\nThis is result from .py /Users/user/Documents/capstone/midi_files/melody_anonymous_1743274767.mid\n/Users/user/Documents/capstone/midi_files/melody_anonymous_1743274767.mid\n'
+INFO 2025-03-29 14:59:28,177 basehttp 80983 123145480589312 "POST /run-script/ HTTP/1.1" 200 323
+INFO 2025-03-29 15:01:56,264 basehttp 80983 123145480589312 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 15:02:07,612 views 80983 123145480589312 Script output: here
+/Users/user/Documents/capstone
+melody_anonymous_1743274927.mid
+This is result from .py /Users/user/Documents/capstone/midi_files/melody_anonymous_1743274927.mid
+
+ERROR 2025-03-29 15:02:07,614 views 80983 123145480589312 Script error output: 
+INFO 2025-03-29 15:02:07,614 views 80983 123145480589312 Script completed with return code 0
+INFO 2025-03-29 15:02:07,614 views 80983 123145480589312 Called upload to flat
+INFO 2025-03-29 15:02:07,614 views 80983 123145480589312 header
+ERROR 2025-03-29 15:02:07,615 views 80983 123145480589312 Error: [Errno 2] No such file or directory: 'here\n/Users/user/Documents/capstone\nmelody_anonymous_1743274927.mid\nThis is result from .py /Users/user/Documents/capstone/midi_files/melody_anonymous_1743274927.mid\n'
+INFO 2025-03-29 15:02:07,616 basehttp 80983 123145480589312 "POST /run-script/ HTTP/1.1" 200 247
+INFO 2025-03-29 15:02:48,968 basehttp 80983 123145480589312 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 15:03:01,126 views 80983 123145480589312 Script output: 
+ERROR 2025-03-29 15:03:01,128 views 80983 123145480589312 Script error output: 
+INFO 2025-03-29 15:03:01,128 views 80983 123145480589312 Script completed with return code 0
+INFO 2025-03-29 15:03:01,128 views 80983 123145480589312 Called upload to flat
+INFO 2025-03-29 15:03:01,128 views 80983 123145480589312 header
+ERROR 2025-03-29 15:03:01,129 views 80983 123145480589312 Error: [Errno 2] No such file or directory: ''
+INFO 2025-03-29 15:03:01,129 basehttp 80983 123145480589312 "POST /run-script/ HTTP/1.1" 200 73
+INFO 2025-03-29 15:03:36,158 autoreload 80983 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:03:37,411 autoreload 81097 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:03:37,995 basehttp 81097 123145469636608 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 15:03:47,725 views 81097 123145469636608 Script output: 
+ERROR 2025-03-29 15:03:47,725 views 81097 123145469636608 Script error output: 
+INFO 2025-03-29 15:03:47,725 views 81097 123145469636608 Script completed with return code 0
+INFO 2025-03-29 15:03:47,727 views 81097 123145469636608 Called upload to flat
+INFO 2025-03-29 15:03:47,727 views 81097 123145469636608 header
+ERROR 2025-03-29 15:03:47,728 views 81097 123145469636608 Error: expected str, bytes or os.PathLike object, not CompletedProcess
+INFO 2025-03-29 15:03:47,729 basehttp 81097 123145469636608 "POST /run-script/ HTTP/1.1" 200 97
+INFO 2025-03-29 15:04:02,580 autoreload 81097 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:04:03,758 autoreload 81106 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:04:10,523 autoreload 81106 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:04:11,369 autoreload 81120 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:04:12,209 basehttp 81120 123145550807040 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 15:04:12,226 basehttp 81120 123145550807040 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 15:04:23,012 views 81120 123145550807040 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743275062.mid
+
+ERROR 2025-03-29 15:04:23,013 views 81120 123145550807040 Script error output: 
+INFO 2025-03-29 15:04:23,013 views 81120 123145550807040 Script completed with return code 0
+INFO 2025-03-29 15:04:23,013 views 81120 123145550807040 Called upload to flat
+INFO 2025-03-29 15:04:23,013 views 81120 123145550807040 header
+ERROR 2025-03-29 15:04:23,013 views 81120 123145550807040 Error: [Errno 2] No such file or directory: '/Users/user/Documents/capstone/midi_files/melody_anonymous_1743275062.mid\n'
+INFO 2025-03-29 15:04:23,014 basehttp 81120 123145550807040 "POST /run-script/ HTTP/1.1" 200 149
+INFO 2025-03-29 15:08:16,119 autoreload 81120 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:08:17,587 autoreload 81162 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:08:27,545 basehttp 81162 123145555742720 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 15:08:38,935 views 81162 123145555742720 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743275318.mid
+
+ERROR 2025-03-29 15:08:38,936 views 81162 123145555742720 Script error output: 
+INFO 2025-03-29 15:08:38,936 views 81162 123145555742720 Script completed with return code 0
+INFO 2025-03-29 15:08:38,937 views 81162 123145555742720 Called upload to flat
+INFO 2025-03-29 15:08:38,937 views 81162 123145555742720 header
+INFO 2025-03-29 15:08:38,937 views 81162 123145555742720 files
+INFO 2025-03-29 15:08:38,938 views 81162 123145555742720 data
+ERROR 2025-03-29 15:08:39,342 log 81162 123145555742720 Internal Server Error: /run-script/
+ERROR 2025-03-29 15:08:39,343 basehttp 81162 123145555742720 "POST /run-script/ HTTP/1.1" 500 55
+INFO 2025-03-29 15:09:21,442 views 81162 123145555742720 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743275361.mid
+
+ERROR 2025-03-29 15:09:21,443 views 81162 123145555742720 Script error output: /Users/user/Documents/capstone/scripts/18500-Capstone/Segmentation/seg.py:13: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-03-29 15:09:21,443 views 81162 123145555742720 Script completed with return code 0
+INFO 2025-03-29 15:09:21,443 views 81162 123145555742720 Called upload to flat
+INFO 2025-03-29 15:09:21,443 views 81162 123145555742720 header
+INFO 2025-03-29 15:09:21,444 views 81162 123145555742720 files
+INFO 2025-03-29 15:09:21,444 views 81162 123145555742720 data
+ERROR 2025-03-29 15:09:21,537 log 81162 123145555742720 Internal Server Error: /run-script/
+ERROR 2025-03-29 15:09:21,538 basehttp 81162 123145555742720 "POST /run-script/ HTTP/1.1" 500 55
+INFO 2025-03-29 15:09:55,891 autoreload 81162 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:09:56,598 autoreload 81208 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:10:35,902 autoreload 81208 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:10:36,664 autoreload 81216 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:10:39,295 basehttp 81216 123145400090624 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 15:10:39,313 basehttp 81216 123145400090624 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 15:10:47,063 views 81216 123145400090624 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743275446.mid
+
+ERROR 2025-03-29 15:10:47,063 views 81216 123145400090624 Script error output: 
+INFO 2025-03-29 15:10:47,063 views 81216 123145400090624 Script completed with return code 0
+ERROR 2025-03-29 15:10:47,152 log 81216 123145400090624 Internal Server Error: /run-script/
+ERROR 2025-03-29 15:10:47,153 basehttp 81216 123145400090624 "POST /run-script/ HTTP/1.1" 500 55
+INFO 2025-03-29 15:13:22,032 autoreload 81216 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:13:22,766 autoreload 81243 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:13:30,433 autoreload 81243 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:13:31,220 autoreload 81246 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:13:45,485 basehttp 81246 123145568837632 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 15:13:53,845 views 81246 123145568837632 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743275633.mid
+
+ERROR 2025-03-29 15:13:53,845 views 81246 123145568837632 Script error output: 
+INFO 2025-03-29 15:13:53,845 views 81246 123145568837632 Script completed with return code 0
+ERROR 2025-03-29 15:13:53,945 log 81246 123145568837632 Internal Server Error: /run-script/
+ERROR 2025-03-29 15:13:53,946 basehttp 81246 123145568837632 "POST /run-script/ HTTP/1.1" 500 55
+INFO 2025-03-29 15:18:01,936 autoreload 81246 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:18:03,482 autoreload 81292 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:19:02,504 autoreload 81292 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:19:03,185 autoreload 81304 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:19:09,834 autoreload 81304 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:19:10,617 autoreload 81307 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:20:05,287 autoreload 81307 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:20:06,006 autoreload 81315 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:20:12,111 basehttp 81315 123145558355968 "GET / HTTP/1.1" 200 14243
+INFO 2025-03-29 15:20:12,128 basehttp 81315 123145558355968 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 15:20:23,595 views 81315 123145558355968 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743276023.mid
+
+ERROR 2025-03-29 15:20:23,595 views 81315 123145558355968 Script error output: 
+INFO 2025-03-29 15:20:23,595 views 81315 123145558355968 Script completed with return code 0
+ERROR 2025-03-29 15:20:23,686 views 81315 123145558355968 Error: cannot unpack non-iterable NoneType object
+INFO 2025-03-29 15:20:23,688 basehttp 81315 123145558355968 "POST /run-script/ HTTP/1.1" 200 76
+INFO 2025-03-29 15:29:39,753 autoreload 81315 140704325959104 /Users/user/Documents/capstone/webapps/urls.py changed, reloading.
+INFO 2025-03-29 15:29:41,175 autoreload 81405 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:29:45,883 autoreload 81405 140704325959104 /Users/user/Documents/capstone/webapps/urls.py changed, reloading.
+INFO 2025-03-29 15:29:46,653 autoreload 81407 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:30:00,268 autoreload 81407 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:30:00,954 autoreload 81412 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:30:40,019 autoreload 81412 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:30:40,721 autoreload 81419 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:31:31,334 autoreload 81419 140704325959104 /Users/user/Documents/capstone/webapps/urls.py changed, reloading.
+INFO 2025-03-29 15:31:32,122 autoreload 81430 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:32:15,921 autoreload 81462 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:32:19,649 basehttp 81462 123145416896512 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:32:19,667 basehttp 81462 123145416896512 "GET /static/base.css HTTP/1.1" 304 0
+WARNING 2025-03-29 15:32:21,603 log 81462 123145416896512 Forbidden (CSRF token missing.): /convert-midi/
+WARNING 2025-03-29 15:32:21,604 basehttp 81462 123145416896512 "POST /convert-midi/ HTTP/1.1" 403 2491
+INFO 2025-03-29 15:34:15,031 autoreload 81462 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:34:16,269 autoreload 81498 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:34:22,974 autoreload 81498 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:34:23,667 autoreload 81503 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:34:25,655 basehttp 81503 123145345187840 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:34:29,584 basehttp 81503 123145345187840 "POST /convert-midi/ HTTP/1.1" 200 53
+INFO 2025-03-29 15:34:57,260 autoreload 81510 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:34:59,922 basehttp 81510 123145430249472 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:35:01,301 basehttp 81510 123145430249472 "POST /convert-midi/ HTTP/1.1" 200 53
+INFO 2025-03-29 15:37:00,783 autoreload 81510 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:37:01,561 autoreload 81529 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:37:05,475 basehttp 81529 123145348792320 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:37:07,703 basehttp 81529 123145348792320 "POST /convert-midi/ HTTP/1.1" 200 206
+INFO 2025-03-29 15:38:13,042 autoreload 81529 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:38:13,884 autoreload 81542 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:38:16,123 basehttp 81542 123145420808192 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:38:17,849 basehttp 81542 123145420808192 "POST /convert-midi/ HTTP/1.1" 200 224
+INFO 2025-03-29 15:38:57,680 autoreload 81542 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:38:58,487 autoreload 81551 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:39:02,515 basehttp 81551 123145442889728 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:39:03,658 basehttp 81551 123145442889728 "POST /convert-midi/ HTTP/1.1" 200 250
+INFO 2025-03-29 15:39:54,553 autoreload 81551 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:39:56,090 autoreload 81569 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:40:11,319 autoreload 81569 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:40:12,551 autoreload 81586 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:40:15,191 basehttp 81586 123145567760384 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:40:16,601 basehttp 81586 123145567760384 "POST /convert-midi/ HTTP/1.1" 200 224
+INFO 2025-03-29 15:40:44,362 autoreload 81586 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:40:45,624 autoreload 81593 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:40:47,124 basehttp 81593 123145598418944 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:40:48,520 basehttp 81593 123145598418944 "POST /convert-midi/ HTTP/1.1" 200 260
+INFO 2025-03-29 15:41:43,781 autoreload 81593 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:41:45,095 autoreload 81621 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:41:50,756 basehttp 81621 123145575481344 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:41:50,773 basehttp 81621 123145575481344 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 15:41:52,172 basehttp 81621 123145575481344 "POST /convert-midi/ HTTP/1.1" 200 275
+INFO 2025-03-29 15:42:28,161 autoreload 81621 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:42:29,420 autoreload 81631 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:42:30,205 basehttp 81631 123145536950272 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:42:31,258 basehttp 81631 123145536950272 "POST /convert-midi/ HTTP/1.1" 200 178
+INFO 2025-03-29 15:43:17,295 autoreload 81631 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:43:18,750 autoreload 81641 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:43:20,620 basehttp 81641 123145496449024 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:43:22,762 basehttp 81641 123145496449024 "POST /convert-midi/ HTTP/1.1" 200 174
+INFO 2025-03-29 15:45:16,502 autoreload 81641 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:45:17,974 autoreload 81667 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:45:21,963 basehttp 81667 123145456545792 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:45:23,066 basehttp 81667 123145456545792 "POST /convert-midi/ HTTP/1.1" 200 218
+INFO 2025-03-29 15:47:32,301 autoreload 81667 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:47:34,026 autoreload 81695 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:47:35,942 autoreload 81695 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:47:36,790 autoreload 81698 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:47:38,429 basehttp 81698 123145568993280 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:47:39,671 basehttp 81698 123145568993280 "POST /convert-midi/ HTTP/1.1" 200 178
+INFO 2025-03-29 15:47:47,859 autoreload 81698 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:47:48,689 autoreload 81700 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:47:49,424 basehttp 81700 123145380859904 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:47:51,288 basehttp 81700 123145380859904 "POST /convert-midi/ HTTP/1.1" 200 178
+INFO 2025-03-29 15:49:10,353 autoreload 81700 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:49:12,097 autoreload 81715 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:49:13,756 basehttp 81715 123145391308800 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:49:15,971 basehttp 81715 123145391308800 "POST /convert-midi/ HTTP/1.1" 200 220
+INFO 2025-03-29 15:49:58,553 autoreload 81715 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:50:00,164 autoreload 81727 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:50:06,381 autoreload 81727 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:50:07,736 autoreload 81731 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:50:10,958 basehttp 81731 123145368088576 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:50:12,253 basehttp 81731 123145368088576 "POST /convert-midi/ HTTP/1.1" 200 175
+INFO 2025-03-29 15:50:33,841 autoreload 81731 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:50:35,095 autoreload 81737 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:50:36,017 basehttp 81737 123145488674816 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:50:38,000 basehttp 81737 123145488674816 "POST /convert-midi/ HTTP/1.1" 200 2069
+INFO 2025-03-29 15:51:38,516 autoreload 81737 140704325959104 /Users/user/Documents/capstone/webapps/urls.py changed, reloading.
+INFO 2025-03-29 15:51:39,775 autoreload 81748 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:52:16,134 autoreload 81748 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:52:17,922 autoreload 81789 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:52:36,113 autoreload 81789 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:52:37,033 autoreload 81800 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:52:51,166 autoreload 81806 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:53:29,349 autoreload 81806 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:53:30,743 autoreload 81813 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:53:45,576 autoreload 81818 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:53:59,270 autoreload 81818 140704325959104 /Users/user/Documents/capstone/webapps/urls.py changed, reloading.
+INFO 2025-03-29 15:54:00,222 autoreload 81822 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:54:06,443 basehttp 81822 123145381150720 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:54:06,479 basehttp 81822 123145381150720 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 15:54:08,392 basehttp 81822 123145381150720 "POST /convert-midi/ HTTP/1.1" 200 2069
+INFO 2025-03-29 15:54:36,163 autoreload 81822 140704325959104 /Users/user/Documents/capstone/webapps/urls.py changed, reloading.
+INFO 2025-03-29 15:54:37,303 autoreload 81829 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:54:44,187 autoreload 81829 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:54:45,110 autoreload 81832 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:54:46,528 basehttp 81832 123145554006016 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:54:51,320 basehttp 81832 123145554006016 "POST /convert-midi/ HTTP/1.1" 200 179
+INFO 2025-03-29 15:55:02,482 autoreload 81832 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:55:03,496 autoreload 81835 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:55:04,712 basehttp 81835 123145457315840 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:55:06,493 basehttp 81835 123145457315840 "POST /convert-midi/ HTTP/1.1" 200 174
+INFO 2025-03-29 15:55:56,654 autoreload 81835 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:55:57,676 autoreload 81844 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:55:58,890 basehttp 81844 123145338126336 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:56:00,144 basehttp 81844 123145338126336 "POST /convert-midi/ HTTP/1.1" 200 221
+INFO 2025-03-29 15:56:46,894 autoreload 81844 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:56:48,650 autoreload 81855 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:56:50,413 basehttp 81855 123145563791360 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:56:51,907 basehttp 81855 123145563791360 "POST /convert-midi/ HTTP/1.1" 200 2070
+INFO 2025-03-29 15:58:36,390 autoreload 81855 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 15:58:38,148 autoreload 81873 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 15:58:39,962 basehttp 81873 123145506353152 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 15:58:41,540 basehttp 81873 123145506353152 "POST /convert-midi/ HTTP/1.1" 200 2079
+INFO 2025-03-29 16:02:27,729 autoreload 81873 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:02:29,539 autoreload 81923 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:07:13,720 autoreload 81923 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:07:15,266 autoreload 81960 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:07:19,410 basehttp 81960 123145516326912 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:07:19,431 basehttp 81960 123145516326912 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 16:07:22,567 basehttp 81960 123145516326912 "POST /convert-midi/ HTTP/1.1" 200 2079
+INFO 2025-03-29 16:09:47,821 autoreload 81960 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:09:48,676 autoreload 81984 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:10:55,674 autoreload 81984 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:10:56,410 autoreload 81995 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:10:59,110 basehttp 81995 123145485811712 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:11:02,179 basehttp 81995 123145485811712 "POST /convert-midi/ HTTP/1.1" 200 224
+INFO 2025-03-29 16:11:18,684 autoreload 82001 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:11:21,192 basehttp 82001 123145470251008 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:11:22,459 basehttp 82001 123145470251008 "POST /convert-midi/ HTTP/1.1" 200 224
+INFO 2025-03-29 16:11:40,974 autoreload 82001 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:11:41,848 autoreload 82005 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:11:42,545 basehttp 82005 123145504534528 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:11:44,291 basehttp 82005 123145504534528 "POST /convert-midi/ HTTP/1.1" 200 224
+INFO 2025-03-29 16:13:32,620 autoreload 82005 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:13:34,027 autoreload 82026 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:13:35,458 basehttp 82026 123145419489280 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:13:36,823 basehttp 82026 123145419489280 "POST /convert-midi/ HTTP/1.1" 200 224
+INFO 2025-03-29 16:14:07,787 autoreload 82026 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:14:09,046 autoreload 82034 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:14:10,064 basehttp 82034 123145426546688 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:14:13,105 basehttp 82034 123145426546688 "POST /convert-midi/ HTTP/1.1" 200 260
+INFO 2025-03-29 16:14:30,519 autoreload 82034 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:14:31,284 autoreload 82038 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:14:44,125 autoreload 82038 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:14:45,346 autoreload 82041 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:14:47,002 autoreload 82041 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:14:47,806 autoreload 82042 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:14:49,925 basehttp 82042 123145428713472 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:14:51,648 basehttp 82042 123145428713472 "POST /convert-midi/ HTTP/1.1" 200 2079
+INFO 2025-03-29 16:18:55,242 autoreload 82042 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:18:56,262 autoreload 82094 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:19:05,516 autoreload 82094 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:19:06,145 autoreload 82100 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:19:41,420 autoreload 82100 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:19:42,127 autoreload 82106 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:19:51,261 basehttp 82106 123145533321216 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:19:51,281 basehttp 82106 123145533321216 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 16:19:54,690 basehttp 82106 123145533321216 "POST /convert-midi/ HTTP/1.1" 200 2079
+INFO 2025-03-29 16:20:04,465 autoreload 82106 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:20:05,297 autoreload 82110 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:20:06,957 autoreload 82110 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:20:07,812 autoreload 82111 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:20:08,330 basehttp 82111 123145380388864 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:20:10,058 basehttp 82111 123145380388864 "POST /convert-midi/ HTTP/1.1" 200 2079
+INFO 2025-03-29 16:20:10,763 basehttp 82111 123145397178368 "POST /convert-midi/ HTTP/1.1" 200 2079
+INFO 2025-03-29 16:20:31,019 autoreload 82111 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:20:31,743 autoreload 82116 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:20:33,302 autoreload 82116 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:20:34,001 autoreload 82117 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:20:39,144 basehttp 82117 123145505726464 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:20:44,532 basehttp 82117 123145505726464 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:20:51,599 basehttp 82117 123145505726464 "POST /convert-midi/ HTTP/1.1" 200 2081
+INFO 2025-03-29 16:21:04,503 autoreload 82117 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:21:05,231 autoreload 82121 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:21:06,805 autoreload 82121 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:21:07,588 autoreload 82122 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:21:09,334 basehttp 82122 123145468305408 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:21:11,462 basehttp 82122 123145468305408 "POST /convert-midi/ HTTP/1.1" 200 2081
+INFO 2025-03-29 16:21:49,464 autoreload 82122 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:21:50,255 autoreload 82130 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:21:53,409 autoreload 82130 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:21:54,200 autoreload 82133 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:21:54,917 basehttp 82133 123145590816768 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:21:56,625 basehttp 82133 123145590816768 "POST /convert-midi/ HTTP/1.1" 200 2081
+INFO 2025-03-29 16:22:59,289 autoreload 82133 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:23:00,064 autoreload 82142 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:23:08,198 basehttp 82142 123145435492352 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:23:10,147 basehttp 82142 123145435492352 "POST /convert-midi/ HTTP/1.1" 200 2081
+INFO 2025-03-29 16:23:28,527 autoreload 82142 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:23:29,413 autoreload 82151 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:23:30,264 basehttp 82151 123145479905280 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:23:32,085 basehttp 82151 123145479905280 "POST /convert-midi/ HTTP/1.1" 200 2081
+INFO 2025-03-29 16:23:38,647 basehttp 82151 123145479905280 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:23:47,554 autoreload 82155 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:23:49,744 basehttp 82155 123145472626688 "POST /convert-midi/ HTTP/1.1" 200 160
+INFO 2025-03-29 16:25:50,054 autoreload 82155 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:25:51,633 autoreload 82219 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:25:56,743 basehttp 82219 123145490702336 "POST /convert-midi/ HTTP/1.1" 200 112
+INFO 2025-03-29 16:26:25,295 autoreload 82219 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:26:26,194 autoreload 82237 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:26:41,091 autoreload 82237 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:26:41,883 autoreload 82242 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:26:44,072 basehttp 82242 123145513435136 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:26:45,608 basehttp 82242 123145513435136 "POST /convert-midi/ HTTP/1.1" 200 112
+INFO 2025-03-29 16:27:53,531 autoreload 82242 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:27:54,365 autoreload 82253 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:27:56,903 basehttp 82253 123145438957568 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:27:59,545 basehttp 82253 123145438957568 "POST /convert-midi/ HTTP/1.1" 200 2073
+INFO 2025-03-29 16:28:14,662 autoreload 82253 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:28:15,378 autoreload 82259 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:28:18,063 autoreload 82259 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:28:18,783 autoreload 82261 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:29:43,127 autoreload 82261 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:29:43,923 autoreload 82274 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:29:46,645 basehttp 82274 123145541664768 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:29:48,378 basehttp 82274 123145541664768 "POST /convert-midi/ HTTP/1.1" 200 2073
+INFO 2025-03-29 16:30:35,979 autoreload 82274 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:30:36,880 autoreload 82295 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:30:39,479 autoreload 82295 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:30:40,338 autoreload 82296 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:30:44,084 basehttp 82296 123145504288768 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:30:46,118 basehttp 82296 123145504288768 "POST /convert-midi/ HTTP/1.1" 200 2064
+INFO 2025-03-29 16:45:54,422 autoreload 82296 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:45:56,254 autoreload 82489 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:46:50,216 autoreload 82489 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:46:51,344 autoreload 82500 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:47:20,691 autoreload 82500 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:47:21,912 autoreload 82505 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:47:24,180 basehttp 82505 123145474899968 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:47:24,200 basehttp 82505 123145474899968 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 16:47:24,204 basehttp 82505 123145474899968 "GET /static/metronome.wav HTTP/1.1" 304 0
+INFO 2025-03-29 16:47:25,677 basehttp 82505 123145474899968 "POST /convert-midi/ HTTP/1.1" 200 212
+INFO 2025-03-29 16:47:57,811 autoreload 82505 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:47:59,081 autoreload 82512 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:48:08,101 autoreload 82512 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:48:08,915 autoreload 82515 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:48:12,795 basehttp 82515 123145480966144 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 16:48:14,192 basehttp 82515 123145480966144 "POST /convert-midi/ HTTP/1.1" 200 131
+INFO 2025-03-29 16:50:10,550 autoreload 82515 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:50:12,064 autoreload 82544 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:52:09,522 autoreload 82614 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:52:14,011 basehttp 82614 123145426952192 "GET / HTTP/1.1" 200 15059
+ERROR 2025-03-29 16:52:15,184 log 82614 123145426952192 Internal Server Error: /convert-midi/
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/write_on_cue/views.py", line 60, in convert_midi
+    configuration.access_token = os.environ['FLAT_API_TOKEN']
+                                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 714, in __getitem__
+KeyError: 'FLAT_API_TOKEN'
+ERROR 2025-03-29 16:52:15,186 basehttp 82614 123145426952192 "POST /convert-midi/ HTTP/1.1" 500 70965
+INFO 2025-03-29 16:52:42,577 autoreload 82614 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:52:43,969 autoreload 82624 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:52:46,554 basehttp 82624 123145442365440 "GET / HTTP/1.1" 200 15059
+ERROR 2025-03-29 16:52:47,679 log 82624 123145442365440 Internal Server Error: /convert-midi/
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/write_on_cue/views.py", line 60, in convert_midi
+    configuration.access_token = os.environ[FLAT_API_TOKEN]
+                                 ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 714, in __getitem__
+KeyError: '18b6b53b5e21ed09f3f1feff34b7df52cfb64cc08170c5e4d76ddeb2ee7582c1397e8f9842102493d4f17f799398a4c8c4345d7dd2c527e96ea6eef23e14d6cb'
+ERROR 2025-03-29 16:52:47,682 basehttp 82624 123145442365440 "POST /convert-midi/ HTTP/1.1" 500 71507
+INFO 2025-03-29 16:53:29,668 autoreload 82624 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:53:31,258 autoreload 82633 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:53:37,023 basehttp 82633 123145483603968 "GET / HTTP/1.1" 200 15059
+ERROR 2025-03-29 16:53:38,158 log 82633 123145483603968 Internal Server Error: /convert-midi/
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/write_on_cue/views.py", line 60, in convert_midi
+    configuration.access_token = os.environ['18b6b53b5e21ed09f3f1feff34b7df52cfb64cc08170c5e4d76ddeb2ee7582c1397e8f9842102493d4f17f799398a4c8c4345d7dd2c527e96ea6eef23e14d6cb']
+                                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 714, in __getitem__
+KeyError: '18b6b53b5e21ed09f3f1feff34b7df52cfb64cc08170c5e4d76ddeb2ee7582c1397e8f9842102493d4f17f799398a4c8c4345d7dd2c527e96ea6eef23e14d6cb'
+ERROR 2025-03-29 16:53:38,160 basehttp 82633 123145483603968 "POST /convert-midi/ HTTP/1.1" 500 71991
+INFO 2025-03-29 16:55:23,916 autoreload 82633 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:55:25,411 autoreload 82651 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:55:34,035 autoreload 82651 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 16:55:35,020 autoreload 82656 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:55:37,468 basehttp 82656 123145516777472 "GET / HTTP/1.1" 200 15059
+ERROR 2025-03-29 16:55:38,571 log 82656 123145516777472 Internal Server Error: /convert-midi/
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/write_on_cue/views.py", line 60, in convert_midi
+    configuration.access_token = os.environ['FLAT_ACCESS_TOKEN']
+                                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 714, in __getitem__
+KeyError: 'FLAT_ACCESS_TOKEN'
+ERROR 2025-03-29 16:55:38,572 basehttp 82656 123145516777472 "POST /convert-midi/ HTTP/1.1" 500 70992
+INFO 2025-03-29 16:56:57,761 autoreload 82679 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:57:04,584 basehttp 82679 123145444343808 "GET / HTTP/1.1" 200 15059
+ERROR 2025-03-29 16:57:06,664 log 82679 123145444343808 Internal Server Error: /convert-midi/
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/write_on_cue/views.py", line 60, in convert_midi
+    configuration.access_token = os.environ['FLAT_ACCESS_TOKEN']
+                                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 714, in __getitem__
+KeyError: 'FLAT_ACCESS_TOKEN'
+ERROR 2025-03-29 16:57:06,667 basehttp 82679 123145444343808 "POST /convert-midi/ HTTP/1.1" 500 71312
+INFO 2025-03-29 16:58:40,871 autoreload 82697 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 16:58:45,564 basehttp 82697 123145429073920 "GET / HTTP/1.1" 200 15059
+ERROR 2025-03-29 16:58:46,730 log 82697 123145429073920 Internal Server Error: /convert-midi/
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/write_on_cue/views.py", line 65, in convert_midi
+    hello_world = urlopen(MIDI_FILE_PATH).read().decode('utf-8')
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/urllib/request.py", line 499, in open
+    req = Request(fullurl, data)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/urllib/request.py", line 318, in __init__
+    self.full_url = url
+    ^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/urllib/request.py", line 344, in full_url
+    self._parse()
+  File "/opt/miniconda3/lib/python3.12/urllib/request.py", line 373, in _parse
+    raise ValueError("unknown url type: %r" % self.full_url)
+ValueError: unknown url type: '/Users/user/Documents/capstone/midi_files/melody_anonymous_1743275446.mid'
+ERROR 2025-03-29 16:58:46,733 basehttp 82697 123145429073920 "POST /convert-midi/ HTTP/1.1" 500 88269
+INFO 2025-03-29 17:00:04,362 autoreload 82697 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:00:05,220 autoreload 82709 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:00:07,627 basehttp 82709 123145554165760 "GET / HTTP/1.1" 200 15059
+ERROR 2025-03-29 17:00:09,409 log 82709 123145554165760 Internal Server Error: /convert-midi/
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view write_on_cue.views.convert_midi didn't return an HttpResponse object. It returned None instead.
+ERROR 2025-03-29 17:00:09,411 basehttp 82709 123145554165760 "POST /convert-midi/ HTTP/1.1" 500 64172
+INFO 2025-03-29 17:00:30,126 autoreload 82709 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:00:31,046 autoreload 82716 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:00:33,477 basehttp 82716 123145448812544 "GET / HTTP/1.1" 200 15059
+ERROR 2025-03-29 17:00:35,217 log 82716 123145448812544 Internal Server Error: /convert-midi/
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view write_on_cue.views.convert_midi didn't return an HttpResponse object. It returned None instead.
+ERROR 2025-03-29 17:00:35,218 basehttp 82716 123145448812544 "POST /convert-midi/ HTTP/1.1" 500 64172
+INFO 2025-03-29 17:00:52,037 autoreload 82716 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:00:52,975 autoreload 82722 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:00:56,358 basehttp 82722 123145405845504 "GET / HTTP/1.1" 200 15059
+ERROR 2025-03-29 17:00:58,257 log 82722 123145405845504 Internal Server Error: /convert-midi/
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view write_on_cue.views.convert_midi didn't return an HttpResponse object. It returned None instead.
+ERROR 2025-03-29 17:00:58,259 basehttp 82722 123145405845504 "POST /convert-midi/ HTTP/1.1" 500 64172
+INFO 2025-03-29 17:01:26,553 autoreload 82722 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:01:27,486 autoreload 82728 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:01:30,177 basehttp 82728 123145528348672 "GET / HTTP/1.1" 200 15059
+ERROR 2025-03-29 17:01:31,835 log 82728 123145528348672 Internal Server Error: /convert-midi/
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view write_on_cue.views.convert_midi didn't return an HttpResponse object. It returned None instead.
+ERROR 2025-03-29 17:01:31,837 basehttp 82728 123145528348672 "POST /convert-midi/ HTTP/1.1" 500 64172
+INFO 2025-03-29 17:04:08,817 autoreload 82728 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:04:09,812 autoreload 82759 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:04:12,373 basehttp 82759 123145467125760 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 17:04:12,387 basehttp 82759 123145467125760 "GET /static/base.css HTTP/1.1" 304 0
+ERROR 2025-03-29 17:04:13,606 log 82759 123145467125760 Internal Server Error: /convert-midi/
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/write_on_cue/views.py", line 73, in convert_midi
+    new_score = flat_api.ScoreCreation(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/pydantic/main.py", line 243, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ScoreCreation
+data
+  Input should be a valid string [type=string_type, input_value=PosixPath('/var/folders/n...1/tmpwlbktk5i.musicxml'), input_type=PosixPath]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+ERROR 2025-03-29 17:04:13,608 basehttp 82759 123145467125760 "POST /convert-midi/ HTTP/1.1" 500 72971
+INFO 2025-03-29 17:05:40,447 autoreload 82759 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:05:41,889 autoreload 82776 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:05:51,550 autoreload 82776 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:05:52,415 autoreload 82780 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:05:55,654 basehttp 82780 123145339289600 "GET / HTTP/1.1" 200 15059
+ERROR 2025-03-29 17:05:57,491 log 82780 123145339289600 Internal Server Error: /convert-midi/
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view write_on_cue.views.convert_midi didn't return an HttpResponse object. It returned None instead.
+ERROR 2025-03-29 17:05:57,493 basehttp 82780 123145339289600 "POST /convert-midi/ HTTP/1.1" 500 64172
+INFO 2025-03-29 17:08:15,520 autoreload 82780 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:08:17,053 autoreload 82820 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:08:23,864 basehttp 82820 123145371922432 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 17:08:26,151 basehttp 82820 123145371922432 "POST /convert-midi/ HTTP/1.1" 200 137
+INFO 2025-03-29 17:11:20,945 autoreload 82820 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:11:22,090 autoreload 82847 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:11:48,795 autoreload 82847 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:11:49,759 autoreload 82853 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:13:24,995 autoreload 82853 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:13:26,398 autoreload 82874 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:13:32,467 basehttp 82874 123145393651712 "GET / HTTP/1.1" 200 15059
+ERROR 2025-03-29 17:13:34,325 log 82874 123145393651712 Internal Server Error: /convert-midi/
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/write_on_cue/views.py", line 91, in convert_midi
+    print(f"Response Status: {score_response.status_code}")
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/pydantic/main.py", line 984, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'ScoreDetails' object has no attribute 'status_code'
+ERROR 2025-03-29 17:13:34,331 basehttp 82874 123145393651712 "POST /convert-midi/ HTTP/1.1" 500 92559
+INFO 2025-03-29 17:18:06,234 autoreload 82874 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:18:07,708 autoreload 82925 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:18:10,516 basehttp 82925 123145601626112 "GET / HTTP/1.1" 200 15059
+INFO 2025-03-29 17:18:12,394 basehttp 82925 123145601626112 "POST /convert-midi/ HTTP/1.1" 200 137
+INFO 2025-03-29 17:23:26,621 basehttp 82925 123145601626112 "GET / HTTP/1.1" 200 15207
+INFO 2025-03-29 17:23:26,639 basehttp 82925 123145601626112 "GET /static/base.css HTTP/1.1" 304 0
+ERROR 2025-03-29 17:23:28,261 log 82925 123145601626112 Internal Server Error: /convert-midi/
+ERROR 2025-03-29 17:23:28,262 basehttp 82925 123145601626112 "POST /convert-midi/ HTTP/1.1" 500 1023
+INFO 2025-03-29 17:25:43,031 autoreload 83040 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:25:48,505 basehttp 83040 123145515859968 "GET / HTTP/1.1" 200 15207
+INFO 2025-03-29 17:25:50,142 basehttp 83040 123145515859968 "POST /convert-midi/ HTTP/1.1" 200 137
+INFO 2025-03-29 17:40:42,734 autoreload 83040 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:40:44,353 autoreload 83200 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:40:48,445 basehttp 83200 123145373933568 "GET / HTTP/1.1" 200 15207
+INFO 2025-03-29 17:40:51,178 basehttp 83200 123145373933568 "POST /convert-midi/ HTTP/1.1" 200 137
+INFO 2025-03-29 17:45:15,989 autoreload 83200 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:45:17,536 autoreload 83280 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:52:00,388 basehttp 83280 123145593487360 "GET / HTTP/1.1" 200 15207
+INFO 2025-03-29 17:52:00,429 basehttp 83280 123145593487360 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 17:52:02,200 basehttp 83280 123145593487360 "POST /convert-midi/ HTTP/1.1" 200 137
+INFO 2025-03-29 17:52:24,326 basehttp 83280 123145593487360 "GET / HTTP/1.1" 200 15207
+INFO 2025-03-29 17:52:26,732 basehttp 83280 123145593487360 "POST /convert-midi/ HTTP/1.1" 200 137
+INFO 2025-03-29 17:54:57,352 autoreload 83280 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:54:59,022 autoreload 83388 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:55:02,248 basehttp 83388 123145577291776 "GET / HTTP/1.1" 200 15207
+INFO 2025-03-29 17:55:04,612 basehttp 83388 123145577291776 "POST /convert-midi/ HTTP/1.1" 200 137
+INFO 2025-03-29 17:55:21,199 autoreload 83388 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:55:22,109 autoreload 83400 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:55:42,744 autoreload 83400 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:55:43,619 autoreload 83405 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:55:46,156 basehttp 83405 123145538125824 "GET / HTTP/1.1" 200 15207
+INFO 2025-03-29 17:55:47,975 basehttp 83405 123145538125824 "POST /convert-midi/ HTTP/1.1" 200 137
+INFO 2025-03-29 17:57:09,028 autoreload 83405 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:57:10,608 autoreload 83426 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:57:30,742 autoreload 83426 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:57:31,743 autoreload 83431 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:57:59,465 autoreload 83431 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:58:00,516 autoreload 83437 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 17:58:03,278 basehttp 83437 123145363300352 "GET / HTTP/1.1" 200 15207
+INFO 2025-03-29 17:58:05,613 basehttp 83437 123145363300352 "POST /convert-midi/ HTTP/1.1" 200 137
+INFO 2025-03-29 17:59:12,382 autoreload 83437 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 17:59:14,589 autoreload 83453 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 18:02:50,033 basehttp 83453 123145347354624 "GET / HTTP/1.1" 200 15263
+INFO 2025-03-29 18:02:51,630 basehttp 83453 123145347354624 "POST /convert-midi/ HTTP/1.1" 200 137
+INFO 2025-03-29 18:04:38,288 autoreload 83453 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 18:04:39,794 autoreload 83522 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 18:04:57,578 autoreload 83522 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 18:04:58,548 autoreload 83526 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 18:06:47,041 autoreload 83526 140704325959104 /Users/user/Documents/capstone/webapps/urls.py changed, reloading.
+INFO 2025-03-29 18:06:48,164 autoreload 83545 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 18:06:52,547 autoreload 83545 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 18:06:53,583 autoreload 83551 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 18:07:14,111 basehttp 83551 123145510834176 "GET / HTTP/1.1" 200 15368
+INFO 2025-03-29 18:07:15,955 basehttp 83551 123145510834176 "POST /convert-midi/ HTTP/1.1" 200 137
+INFO 2025-03-29 18:10:44,805 basehttp 83551 123145510834176 "GET / HTTP/1.1" 200 15382
+INFO 2025-03-29 18:10:47,424 basehttp 83551 123145510834176 "POST /convert-midi/ HTTP/1.1" 200 137
+INFO 2025-03-29 18:17:16,578 basehttp 83551 123145510834176 "GET / HTTP/1.1" 200 17007
+INFO 2025-03-29 18:17:16,616 basehttp 83551 123145510834176 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 18:17:19,580 basehttp 83551 123145510834176 "POST /convert-midi/ HTTP/1.1" 200 137
+INFO 2025-03-29 18:18:52,317 basehttp 83551 123145510834176 "GET / HTTP/1.1" 200 17112
+INFO 2025-03-29 18:18:54,522 basehttp 83551 123145510834176 "POST /convert-midi/ HTTP/1.1" 200 137
+INFO 2025-03-29 18:19:40,554 basehttp 83551 123145510834176 "GET / HTTP/1.1" 200 17112
+INFO 2025-03-29 18:19:57,599 basehttp 83551 123145510834176 "POST /convert-midi/ HTTP/1.1" 200 137
+WARNING 2025-03-29 18:20:24,760 log 83551 123145510834176 Not Found: /favicon.ico
+WARNING 2025-03-29 18:20:24,761 basehttp 83551 123145510834176 "GET /favicon.ico HTTP/1.1" 404 4089
+INFO 2025-03-29 18:27:39,645 autoreload 83551 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 18:27:41,407 autoreload 83827 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 18:29:47,168 autoreload 83827 140704325959104 /Users/user/Documents/capstone/webapps/urls.py changed, reloading.
+INFO 2025-03-29 18:29:48,004 autoreload 83867 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 18:29:51,988 basehttp 83867 123145539964928 "GET / HTTP/1.1" 200 16185
+WARNING 2025-03-29 18:29:54,531 log 83867 123145539964928 Bad Request: /convert-midi/
+WARNING 2025-03-29 18:29:54,532 basehttp 83867 123145539964928 "POST /convert-midi/ HTTP/1.1" 400 77
+WARNING 2025-03-29 18:30:12,954 log 83867 123145539964928 Bad Request: /convert-midi/
+WARNING 2025-03-29 18:30:12,955 basehttp 83867 123145539964928 "POST /convert-midi/ HTTP/1.1" 400 77
+INFO 2025-03-29 18:30:29,478 views 83867 123145539964928 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743287429.mid
+
+ERROR 2025-03-29 18:30:29,479 views 83867 123145539964928 Script error output: 
+INFO 2025-03-29 18:30:29,479 views 83867 123145539964928 Script completed with return code 0
+ERROR 2025-03-29 18:30:30,261 log 83867 123145539964928 Internal Server Error: /run-script/
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view write_on_cue.views.run_script didn't return an HttpResponse object. It returned None instead.
+ERROR 2025-03-29 18:30:30,262 basehttp 83867 123145539964928 "POST /run-script/ HTTP/1.1" 500 64849
+INFO 2025-03-29 18:37:46,681 autoreload 83867 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 18:37:48,324 autoreload 83965 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 19:01:31,807 basehttp 83965 123145444347904 "GET / HTTP/1.1" 200 15947
+INFO 2025-03-29 19:01:31,842 basehttp 83965 123145444347904 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 19:01:45,380 views 83965 123145444347904 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743289304.mid
+
+ERROR 2025-03-29 19:01:45,380 views 83965 123145444347904 Script error output: 
+INFO 2025-03-29 19:01:45,381 views 83965 123145444347904 Script completed with return code 0
+INFO 2025-03-29 19:01:46,044 basehttp 83965 123145444347904 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-03-29 19:04:12,435 autoreload 83965 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 19:04:13,846 autoreload 84274 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 19:09:18,699 basehttp 84274 123145428135936 "GET / HTTP/1.1" 200 15266
+INFO 2025-03-29 19:11:43,172 basehttp 84274 123145428135936 "GET / HTTP/1.1" 200 15286
+WARNING 2025-03-29 19:11:48,938 log 84274 123145428135936 Not Found: /run_script/
+WARNING 2025-03-29 19:11:48,938 basehttp 84274 123145428135936 "POST /run_script/ HTTP/1.1" 404 3889
+INFO 2025-03-29 19:12:56,011 autoreload 84274 140704325959104 /Users/user/Documents/capstone/webapps/urls.py changed, reloading.
+INFO 2025-03-29 19:12:57,549 autoreload 84372 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 19:17:58,411 autoreload 84372 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 19:18:00,261 autoreload 84427 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 19:19:37,148 autoreload 84427 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 19:19:38,809 autoreload 84470 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 19:20:09,004 autoreload 84470 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 19:20:10,057 autoreload 84476 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 19:20:12,297 basehttp 84476 123145596272640 "GET / HTTP/1.1" 200 15182
+INFO 2025-03-29 19:20:25,831 views 84476 123145596272640 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743290425.mid
+
+ERROR 2025-03-29 19:20:25,831 views 84476 123145596272640 Script error output: 
+INFO 2025-03-29 19:20:25,831 views 84476 123145596272640 Script completed with return code 0
+ERROR 2025-03-29 19:20:26,127 log 84476 123145596272640 Internal Server Error: /run-script/
+ERROR 2025-03-29 19:20:26,128 basehttp 84476 123145596272640 "POST /run-script/ HTTP/1.1" 500 1023
+INFO 2025-03-29 19:23:16,138 autoreload 84535 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 19:23:25,373 basehttp 84535 123145411457024 "GET / HTTP/1.1" 200 15182
+INFO 2025-03-29 19:23:38,866 views 84535 123145411457024 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743290618.mid
+
+ERROR 2025-03-29 19:23:38,867 views 84535 123145411457024 Script error output: 
+INFO 2025-03-29 19:23:38,867 views 84535 123145411457024 Script completed with return code 0
+INFO 2025-03-29 19:23:39,599 basehttp 84535 123145411457024 "POST /run-script/ HTTP/1.1" 200 137
+WARNING 2025-03-29 19:24:15,280 log 84535 123145411457024 Not Found: /favicon.ico
+WARNING 2025-03-29 19:24:15,280 basehttp 84535 123145411457024 "GET /favicon.ico HTTP/1.1" 404 3888
+WARNING 2025-03-29 19:25:41,390 log 84535 123145411457024 Forbidden (CSRF token missing.): /upload-audio/
+WARNING 2025-03-29 19:25:41,392 basehttp 84535 123145411457024 "POST /upload-audio/ HTTP/1.1" 403 2491
+INFO 2025-03-29 19:25:54,557 views 84535 123145411457024 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743290754.mid
+
+ERROR 2025-03-29 19:25:54,558 views 84535 123145411457024 Script error output: /Users/user/Documents/capstone/scripts/18500-Capstone/Segmentation/seg.py:13: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-03-29 19:25:54,558 views 84535 123145411457024 Script completed with return code 0
+INFO 2025-03-29 19:25:55,187 basehttp 84535 123145411457024 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-03-29 19:27:11,532 autoreload 84535 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 19:27:13,101 autoreload 84583 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 19:27:36,037 views 84583 123145532518400 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743290855.mid
+
+ERROR 2025-03-29 19:27:36,038 views 84583 123145532518400 Script error output: 
+INFO 2025-03-29 19:27:36,038 views 84583 123145532518400 Script completed with return code 0
+INFO 2025-03-29 19:27:36,804 basehttp 84583 123145532518400 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-03-29 19:29:18,564 autoreload 84583 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 19:29:20,088 autoreload 84628 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 19:31:04,494 basehttp 84628 123145454260224 "GET / HTTP/1.1" 200 14920
+INFO 2025-03-29 19:31:05,576 views 84628 123145437470720 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743291065.mid
+
+ERROR 2025-03-29 19:31:05,576 views 84628 123145437470720 Script error output: 
+INFO 2025-03-29 19:31:05,576 views 84628 123145437470720 Script completed with return code 0
+INFO 2025-03-29 19:31:06,308 basehttp 84628 123145437470720 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-03-29 19:31:15,036 views 84628 123145454260224 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743291074.mid
+
+ERROR 2025-03-29 19:31:15,036 views 84628 123145454260224 Script error output: 
+INFO 2025-03-29 19:31:15,036 views 84628 123145454260224 Script completed with return code 0
+INFO 2025-03-29 19:31:15,838 basehttp 84628 123145454260224 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-03-29 19:31:33,825 autoreload 84628 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 19:31:35,112 autoreload 84676 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 19:31:47,199 basehttp 84676 123145502855168 "GET / HTTP/1.1" 200 14855
+INFO 2025-03-29 19:31:47,221 basehttp 84676 123145502855168 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-29 19:31:56,308 views 84676 123145502855168 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743291115.mid
+
+ERROR 2025-03-29 19:31:56,308 views 84676 123145502855168 Script error output: 
+INFO 2025-03-29 19:31:56,308 views 84676 123145502855168 Script completed with return code 0
+INFO 2025-03-29 19:31:57,012 basehttp 84676 123145502855168 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-03-29 19:37:26,242 autoreload 84676 140704325959104 /Users/user/Documents/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-03-29 19:37:28,144 autoreload 84818 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 19:41:23,016 basehttp 84818 123145385779200 "GET / HTTP/1.1" 200 14855
+INFO 2025-03-29 19:41:34,093 views 84818 123145385779200 Script output: 
+ERROR 2025-03-29 19:41:34,093 views 84818 123145385779200 Script error output: Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 1, in <module>
+    from Denoising.noise_reduction import Denoising
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py", line 5, in <module>
+    import noisereduce as nr
+ModuleNotFoundError: No module named 'noisereduce'
+
+INFO 2025-03-29 19:41:34,093 views 84818 123145385779200 Script completed with return code 1
+WARNING 2025-03-29 19:41:34,094 log 84818 123145385779200 Bad Request: /run-script/
+WARNING 2025-03-29 19:41:34,095 basehttp 84818 123145385779200 "POST /run-script/ HTTP/1.1" 400 416
+INFO 2025-03-29 19:42:00,579 autoreload 84968 140704325959104 Watching for file changes with StatReloader
+INFO 2025-03-29 19:42:03,830 basehttp 84968 123145357955072 "GET / HTTP/1.1" 200 14855
+INFO 2025-03-29 19:42:15,023 views 84968 123145357955072 Script output: 
+ERROR 2025-03-29 19:42:15,023 views 84968 123145357955072 Script error output: Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 74, in <module>
+    result = generate_midi(audio_file_path,)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 56, in generate_midi
+    midi_filename = f"melody_{user_id or 'anonymous'}_{int(time.time())}.mid"
+                                                           ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'?
+
+INFO 2025-03-29 19:42:15,023 views 84968 123145357955072 Script completed with return code 1
+WARNING 2025-03-29 19:42:15,026 log 84968 123145357955072 Bad Request: /run-script/
+WARNING 2025-03-29 19:42:15,026 basehttp 84968 123145357955072 "POST /run-script/ HTTP/1.1" 400 578
+INFO 2025-03-29 19:42:37,827 basehttp 84968 123145357955072 "GET / HTTP/1.1" 200 14855
+INFO 2025-03-29 19:42:48,467 views 84968 123145374744576 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743291768.mid
+
+INFO 2025-03-29 19:42:48,467 views 84968 123145357955072 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743291768.mid
+
+ERROR 2025-03-29 19:42:48,468 views 84968 123145374744576 Script error output: 
+INFO 2025-03-29 19:42:48,468 views 84968 123145374744576 Script completed with return code 0
+ERROR 2025-03-29 19:42:48,468 views 84968 123145357955072 Script error output: 
+INFO 2025-03-29 19:42:48,468 views 84968 123145357955072 Script completed with return code 0
+INFO 2025-03-29 19:42:49,225 basehttp 84968 123145357955072 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-03-29 19:42:49,227 basehttp 84968 123145374744576 "POST /run-script/ HTTP/1.1" 200 137
+WARNING 2025-03-29 19:42:55,567 log 84968 123145374744576 Not Found: /favicon.ico
+WARNING 2025-03-29 19:42:55,567 basehttp 84968 123145374744576 "GET /favicon.ico HTTP/1.1" 404 3888
+INFO 2025-03-29 19:43:16,493 basehttp 84968 123145374744576 "GET / HTTP/1.1" 200 14855
+INFO 2025-03-29 19:43:28,121 views 84968 123145374744576 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743291807.mid
+
+ERROR 2025-03-29 19:43:28,121 views 84968 123145374744576 Script error output: 
+INFO 2025-03-29 19:43:28,121 views 84968 123145374744576 Script completed with return code 0
+INFO 2025-03-29 19:43:28,801 basehttp 84968 123145374744576 "POST /run-script/ HTTP/1.1" 200 137
+WARNING 2025-03-29 19:43:32,152 log 84968 123145374744576 Not Found: /favicon.ico
+WARNING 2025-03-29 19:43:32,152 basehttp 84968 123145374744576 "GET /favicon.ico HTTP/1.1" 404 3888
+INFO 2025-03-30 15:47:19,516 autoreload 1003 140704589352384 Watching for file changes with StatReloader
+WARNING 2025-03-30 15:47:26,162 log 1003 123145581666304 Not Found: /favicon.ico
+WARNING 2025-03-30 15:47:26,164 basehttp 1003 123145581666304 "GET /favicon.ico HTTP/1.1" 404 3888
+INFO 2025-03-30 15:47:27,203 basehttp 1003 123145581666304 "GET / HTTP/1.1" 200 14853
+INFO 2025-03-30 15:47:27,224 basehttp 1003 123145581666304 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-30 15:48:06,849 views 1003 123145581666304 Script output: 
+ERROR 2025-03-30 15:48:06,850 views 1003 123145581666304 Script error output: python: can't open file '/Users/user/Documents/capstone/scripts/18500-Capstone/main.py': [Errno 2] No such file or directory
+
+INFO 2025-03-30 15:48:06,850 views 1003 123145581666304 Script completed with return code 2
+WARNING 2025-03-30 15:48:06,851 log 1003 123145581666304 Bad Request: /run-script/
+WARNING 2025-03-30 15:48:06,852 basehttp 1003 123145581666304 "POST /run-script/ HTTP/1.1" 400 160
+INFO 2025-03-30 15:48:26,308 views 1003 123145581666304 Script output: 
+ERROR 2025-03-30 15:48:26,309 views 1003 123145581666304 Script error output: python: can't open file '/Users/user/Documents/capstone/scripts/18500-Capstone/main.py': [Errno 2] No such file or directory
+
+INFO 2025-03-30 15:48:26,309 views 1003 123145581666304 Script completed with return code 2
+WARNING 2025-03-30 15:48:26,310 log 1003 123145581666304 Bad Request: /run-script/
+WARNING 2025-03-30 15:48:26,311 basehttp 1003 123145581666304 "POST /run-script/ HTTP/1.1" 400 160
+INFO 2025-03-30 15:49:17,689 autoreload 1064 140704589352384 Watching for file changes with StatReloader
+INFO 2025-03-30 15:49:22,407 basehttp 1064 123145589473280 "GET / HTTP/1.1" 200 14853
+INFO 2025-03-30 15:50:08,568 views 1064 123145589473280 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743364208.mid
+
+ERROR 2025-03-30 15:50:08,569 views 1064 123145589473280 Script error output: 
+INFO 2025-03-30 15:50:08,569 views 1064 123145589473280 Script completed with return code 0
+ERROR 2025-03-30 15:50:08,571 views 1064 123145589473280 Error: 'FLAT_ACCESS_TOKEN'
+INFO 2025-03-30 15:50:08,572 basehttp 1064 123145589473280 "POST /run-script/ HTTP/1.1" 200 53
+INFO 2025-03-30 15:56:25,955 autoreload 1387 140704589352384 Watching for file changes with StatReloader
+INFO 2025-03-30 15:56:30,592 basehttp 1387 123145445228544 "GET / HTTP/1.1" 200 14853
+INFO 2025-03-30 15:56:42,306 views 1387 123145445228544 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743364601.mid
+
+ERROR 2025-03-30 15:56:42,307 views 1387 123145445228544 Script error output: 
+INFO 2025-03-30 15:56:42,308 views 1387 123145445228544 Script completed with return code 0
+INFO 2025-03-30 15:56:43,413 basehttp 1387 123145445228544 "POST /run-script/ HTTP/1.1" 200 137
+WARNING 2025-03-30 15:56:50,585 log 1387 123145445228544 Not Found: /favicon.ico
+WARNING 2025-03-30 15:56:50,585 basehttp 1387 123145445228544 "GET /favicon.ico HTTP/1.1" 404 3888
+INFO 2025-03-30 15:57:28,916 views 1387 123145445228544 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743364648.mid
+
+ERROR 2025-03-30 15:57:28,917 views 1387 123145445228544 Script error output: 
+INFO 2025-03-30 15:57:28,917 views 1387 123145445228544 Script completed with return code 0
+INFO 2025-03-30 15:57:29,672 basehttp 1387 123145445228544 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-03-30 15:57:36,981 basehttp 1387 123145445228544 "GET / HTTP/1.1" 200 14853
+INFO 2025-03-30 15:57:51,126 views 1387 123145445228544 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743364670.mid
+
+ERROR 2025-03-30 15:57:51,126 views 1387 123145445228544 Script error output: 
+INFO 2025-03-30 15:57:51,127 views 1387 123145445228544 Script completed with return code 0
+INFO 2025-03-30 15:57:51,815 basehttp 1387 123145445228544 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-03-30 15:59:27,997 basehttp 1387 123145445228544 "GET / HTTP/1.1" 200 14853
+INFO 2025-03-30 15:59:51,294 views 1387 123145445228544 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743364790.mid
+
+ERROR 2025-03-30 15:59:51,295 views 1387 123145445228544 Script error output: 
+INFO 2025-03-30 15:59:51,296 views 1387 123145445228544 Script completed with return code 0
+INFO 2025-03-30 15:59:52,136 basehttp 1387 123145445228544 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-03-30 16:02:35,587 basehttp 1387 123145445228544 "GET / HTTP/1.1" 200 14853
+INFO 2025-03-30 16:03:13,283 basehttp 1387 123145445228544 "GET / HTTP/1.1" 200 14853
+INFO 2025-03-30 16:03:18,178 views 1387 123145445228544 Script output: 
+ERROR 2025-03-30 16:03:18,178 views 1387 123145445228544 Script error output: /Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py", line 176, in load
+    y, sr_native = __soundfile_load(path, offset, duration, dtype)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py", line 209, in __soundfile_load
+    context = sf.SoundFile(path)
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/soundfile.py", line 690, in __init__
+    self._file = self._open(file, mode_int, closefd)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/soundfile.py", line 1265, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening '/var/folders/nd/9k08n8rs10z06vl1lw_zj9380000gn/T/tmp9oqxwhcq.wav': Format not recognised.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 75, in <module>
+    result = generate_midi(audio_file_path,)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 26, in generate_midi
+    y_filtered, sr = denoising.noise_suppression_pipeline(audio_file_path)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py", line 59, in noise_suppression_pipeline
+    y, sr = self.load_audio(input_file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py", line 20, in load_audio
+    y, sr = librosa.load(file_path, sr=None)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py", line 184, in load
+    y, sr_native = __audioread_load(path, offset, duration, dtype)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/decorator.py", line 235, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/util/decorators.py", line 63, in __wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py", line 240, in __audioread_load
+    reader = audioread.audio_open(path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/audioread/__init__.py", line 132, in audio_open
+    raise NoBackendError()
+audioread.exceptions.NoBackendError
+
+INFO 2025-03-30 16:03:18,179 views 1387 123145445228544 Script completed with return code 1
+WARNING 2025-03-30 16:03:18,179 log 1387 123145445228544 Bad Request: /run-script/
+WARNING 2025-03-30 16:03:18,180 basehttp 1387 123145445228544 "POST /run-script/ HTTP/1.1" 400 3636
+INFO 2025-03-30 16:09:51,437 basehttp 1387 123145462018048 "GET / HTTP/1.1" 200 14853
+INFO 2025-03-30 16:10:08,658 views 1387 123145445228544 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743365408.mid
+
+ERROR 2025-03-30 16:10:08,659 views 1387 123145445228544 Script error output: 
+INFO 2025-03-30 16:10:08,659 views 1387 123145445228544 Script completed with return code 0
+INFO 2025-03-30 16:10:17,884 basehttp 1387 123145445228544 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-03-30 16:10:17,888 basehttp 1387 123145445228544 - Broken pipe from ('127.0.0.1', 50619)
+INFO 2025-03-30 16:10:33,578 autoreload 1654 140704589352384 Watching for file changes with StatReloader
+INFO 2025-03-30 16:10:37,889 basehttp 1654 123145399836672 "GET / HTTP/1.1" 200 14853
+INFO 2025-03-30 16:11:26,074 views 1654 123145399836672 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743365485.mid
+
+ERROR 2025-03-30 16:11:26,075 views 1654 123145399836672 Script error output: /Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-03-30 16:11:26,075 views 1654 123145399836672 Script completed with return code 0
+INFO 2025-03-30 16:11:27,105 basehttp 1654 123145399836672 "POST /run-script/ HTTP/1.1" 200 137
+WARNING 2025-03-30 16:11:32,736 log 1654 123145399836672 Not Found: /favicon.ico
+WARNING 2025-03-30 16:11:32,737 basehttp 1654 123145399836672 "GET /favicon.ico HTTP/1.1" 404 3888
+INFO 2025-03-30 16:12:08,054 views 1654 123145399836672 Script output: 
+ERROR 2025-03-30 16:12:08,055 views 1654 123145399836672 Script error output: /Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 75, in <module>
+    result = generate_midi(audio_file_path,)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 29, in generate_midi
+    rms_vals, sr, og_signal, segs = segmentation.segment_notes(y_filtered, sr)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/Segmentation/seg.py", line 149, in segment_notes
+    segs = self.calculate_new_notes(rms_vals, 512, sr)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/Segmentation/seg.py", line 54, in calculate_new_notes
+    if rms_vals[j] > rms_vals[j - 1] and rms_vals[j] > rms_vals[j + 1]:  # Local peak
+                                                       ~~~~~~~~^^^^^^^
+IndexError: index 8095 is out of bounds for axis 0 with size 8095
+
+INFO 2025-03-30 16:12:08,056 views 1654 123145399836672 Script completed with return code 1
+WARNING 2025-03-30 16:12:08,057 log 1654 123145399836672 Bad Request: /run-script/
+WARNING 2025-03-30 16:12:08,058 basehttp 1654 123145399836672 "POST /run-script/ HTTP/1.1" 400 1585
+INFO 2025-03-30 16:12:11,134 basehttp 1654 123145399836672 "GET / HTTP/1.1" 200 14853
+INFO 2025-03-30 16:12:28,397 views 1654 123145399836672 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743365547.mid
+
+ERROR 2025-03-30 16:12:28,398 views 1654 123145399836672 Script error output: /Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-03-30 16:12:28,398 views 1654 123145399836672 Script completed with return code 0
+INFO 2025-03-30 16:12:29,262 basehttp 1654 123145399836672 "POST /run-script/ HTTP/1.1" 200 137
+WARNING 2025-03-30 16:12:36,701 log 1654 123145399836672 Not Found: /favicon.ico
+WARNING 2025-03-30 16:12:36,702 basehttp 1654 123145399836672 "GET /favicon.ico HTTP/1.1" 404 3888
+ERROR 2025-03-30 16:17:50,247 log 1654 123145399836672 Internal Server Error: /transcriptions
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/write_on_cue/views.py", line 343, in transcriptions_action
+    return render(request, 'transcriptions.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/template/loader_tags.py", line 56, in render
+    result = self.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'sheet_music_viewer' not found. 'sheet_music_viewer' is not a valid view function or pattern name.
+ERROR 2025-03-30 16:17:50,279 basehttp 1654 123145399836672 "GET /transcriptions HTTP/1.1" 500 130674
+INFO 2025-03-31 00:00:02,834 basehttp 1654 123145399836672 "GET / HTTP/1.1" 200 14853
+INFO 2025-03-31 00:00:02,938 basehttp 1654 123145416626176 "GET /static/images/profile.png HTTP/1.1" 200 10999
+INFO 2025-03-31 00:00:02,939 basehttp 1654 123145399836672 "GET /static/base.css HTTP/1.1" 200 5144
+INFO 2025-03-31 00:21:04,437 basehttp 1654 123145399836672 "GET / HTTP/1.1" 200 14853
+INFO 2025-03-31 00:21:04,553 basehttp 1654 123145399836672 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-03-31 00:21:28,967 views 1654 123145399836672 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743394888.mid
+
+ERROR 2025-03-31 00:21:28,968 views 1654 123145399836672 Script error output: /Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-03-31 00:21:28,970 views 1654 123145399836672 Script completed with return code 0
+INFO 2025-03-31 00:21:29,922 basehttp 1654 123145399836672 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-03-31 00:21:54,283 basehttp 1654 123145399836672 "GET / HTTP/1.1" 200 14853
+INFO 2025-03-31 00:22:40,603 views 1654 123145399836672 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743394960.mid
+
+ERROR 2025-03-31 00:22:40,604 views 1654 123145399836672 Script error output: 
+INFO 2025-03-31 00:22:40,604 views 1654 123145399836672 Script completed with return code 0
+INFO 2025-03-31 00:22:41,573 basehttp 1654 123145399836672 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-03-31 00:25:21,757 basehttp 1654 123145416626176 "GET /static/metronome.wav HTTP/1.1" 200 107901006
+INFO 2025-03-31 10:04:14,846 autoreload 8080 140704589352384 Watching for file changes with StatReloader
+INFO 2025-03-31 10:04:18,755 basehttp 8080 123145442504704 "GET / HTTP/1.1" 200 14853
+INFO 2025-03-31 10:04:18,782 basehttp 8080 123145442504704 "GET /static/base.css HTTP/1.1" 304 0
+WARNING 2025-03-31 10:04:23,053 log 8080 123145442504704 Forbidden (CSRF token missing.): /upload-audio/
+WARNING 2025-03-31 10:04:23,054 basehttp 8080 123145442504704 "POST /upload-audio/ HTTP/1.1" 403 2491
+WARNING 2025-03-31 10:04:24,141 log 8080 123145442504704 Not Found: /favicon.ico
+WARNING 2025-03-31 10:04:24,141 basehttp 8080 123145442504704 "GET /favicon.ico HTTP/1.1" 404 3888
+INFO 2025-03-31 10:24:54,554 autoreload 8270 140704589352384 Watching for file changes with StatReloader
+INFO 2025-03-31 10:25:06,860 basehttp 8270 123145362280448 "GET / HTTP/1.1" 200 14853
+WARNING 2025-03-31 10:30:34,307 log 8270 123145362280448 Not Found: /favicon.ico
+WARNING 2025-03-31 10:30:34,309 basehttp 8270 123145362280448 "GET /favicon.ico HTTP/1.1" 404 3888
+WARNING 2025-03-31 10:30:46,825 log 8270 123145362280448 Forbidden (CSRF token missing.): /upload-audio/
+WARNING 2025-03-31 10:30:46,826 basehttp 8270 123145362280448 "POST /upload-audio/ HTTP/1.1" 403 2491
+INFO 2025-03-31 10:31:36,368 views 8270 123145362280448 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743431495.mid
+
+ERROR 2025-03-31 10:31:36,369 views 8270 123145362280448 Script error output: 
+INFO 2025-03-31 10:31:36,369 views 8270 123145362280448 Script completed with return code 0
+INFO 2025-03-31 10:31:37,534 basehttp 8270 123145362280448 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-03-31 11:35:24,049 autoreload 8940 140704589352384 Watching for file changes with StatReloader
+INFO 2025-03-31 11:35:35,305 basehttp 8940 123145383993344 "GET / HTTP/1.1" 200 14853
+WARNING 2025-03-31 11:41:15,051 log 8940 123145383993344 Not Found: /favicon.ico
+WARNING 2025-03-31 11:41:15,053 basehttp 8940 123145383993344 "GET /favicon.ico HTTP/1.1" 404 3888
+WARNING 2025-03-31 11:41:32,057 log 8940 123145383993344 Forbidden (CSRF token missing.): /upload-audio/
+WARNING 2025-03-31 11:41:32,059 basehttp 8940 123145383993344 "POST /upload-audio/ HTTP/1.1" 403 2491
+INFO 2025-03-31 11:42:14,742 views 8940 123145383993344 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743435734.mid
+
+ERROR 2025-03-31 11:42:14,743 views 8940 123145383993344 Script error output: 
+INFO 2025-03-31 11:42:14,743 views 8940 123145383993344 Script completed with return code 0
+INFO 2025-03-31 11:42:15,839 basehttp 8940 123145383993344 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-04-02 10:13:59,943 autoreload 30158 140704589352384 Watching for file changes with StatReloader
+INFO 2025-04-02 10:14:16,986 basehttp 30158 123145547083776 "GET / HTTP/1.1" 200 14853
+INFO 2025-04-02 10:14:17,032 basehttp 30158 123145547083776 "GET /static/base.css HTTP/1.1" 304 0
+INFO 2025-04-02 10:14:17,034 basehttp 30158 123145563873280 "GET /static/metronome.wav HTTP/1.1" 304 0
+WARNING 2025-04-02 10:14:17,137 log 30158 123145563873280 Not Found: /favicon.ico
+WARNING 2025-04-02 10:14:17,138 basehttp 30158 123145563873280 "GET /favicon.ico HTTP/1.1" 404 3888
+WARNING 2025-04-02 10:15:21,998 log 30158 123145547083776 Not Found: /favicon.ico
+WARNING 2025-04-02 10:15:21,999 basehttp 30158 123145547083776 "GET /favicon.ico HTTP/1.1" 404 3888
+INFO 2025-04-02 10:16:44,880 views 30158 123145547083776 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743603404.mid
+
+ERROR 2025-04-02 10:16:44,882 views 30158 123145547083776 Script error output: 
+INFO 2025-04-02 10:16:44,882 views 30158 123145547083776 Script completed with return code 0
+INFO 2025-04-02 10:16:45,935 basehttp 30158 123145547083776 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-04-02 10:17:19,469 basehttp 30158 123145547083776 "GET / HTTP/1.1" 200 14853
+WARNING 2025-04-02 10:17:35,252 log 30158 123145547083776 Forbidden (CSRF token missing.): /upload-audio/
+WARNING 2025-04-02 10:17:35,253 basehttp 30158 123145547083776 "POST /upload-audio/ HTTP/1.1" 403 2491
+INFO 2025-04-02 10:17:40,952 views 30158 123145547083776 Script output: 
+ERROR 2025-04-02 10:17:40,952 views 30158 123145547083776 Script error output: /Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 75, in <module>
+    result = generate_midi(audio_file_path,)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 29, in generate_midi
+    rms_vals, sr, og_signal, segs = segmentation.segment_notes(y_filtered, sr)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/Segmentation/seg.py", line 149, in segment_notes
+    segs = self.calculate_new_notes(rms_vals, 512, sr)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/Segmentation/seg.py", line 54, in calculate_new_notes
+    if rms_vals[j] > rms_vals[j - 1] and rms_vals[j] > rms_vals[j + 1]:  # Local peak
+                                                       ~~~~~~~~^^^^^^^
+IndexError: index 735 is out of bounds for axis 0 with size 735
+
+INFO 2025-04-02 10:17:40,952 views 30158 123145547083776 Script completed with return code 1
+WARNING 2025-04-02 10:17:40,953 log 30158 123145547083776 Bad Request: /run-script/
+WARNING 2025-04-02 10:17:40,954 basehttp 30158 123145547083776 "POST /run-script/ HTTP/1.1" 400 1583
+INFO 2025-04-02 10:22:58,265 views 30158 123145547083776 Script output: 
+ERROR 2025-04-02 10:22:58,266 views 30158 123145547083776 Script error output: /Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 75, in <module>
+    result = generate_midi(audio_file_path,)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 29, in generate_midi
+    rms_vals, sr, og_signal, segs = segmentation.segment_notes(y_filtered, sr)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/Segmentation/seg.py", line 149, in segment_notes
+    segs = self.calculate_new_notes(rms_vals, 512, sr)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/Segmentation/seg.py", line 54, in calculate_new_notes
+    if rms_vals[j] > rms_vals[j - 1] and rms_vals[j] > rms_vals[j + 1]:  # Local peak
+                                                       ~~~~~~~~^^^^^^^
+IndexError: index 718 is out of bounds for axis 0 with size 718
+
+INFO 2025-04-02 10:22:58,266 views 30158 123145547083776 Script completed with return code 1
+WARNING 2025-04-02 10:22:58,267 log 30158 123145547083776 Bad Request: /run-script/
+WARNING 2025-04-02 10:22:58,268 basehttp 30158 123145547083776 "POST /run-script/ HTTP/1.1" 400 1583
+INFO 2025-04-02 10:24:20,938 views 30158 123145547083776 Script output: 
+ERROR 2025-04-02 10:24:20,940 views 30158 123145547083776 Script error output: Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 75, in <module>
+    result = generate_midi(audio_file_path,)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 29, in generate_midi
+    rms_vals, sr, og_signal, segs = segmentation.segment_notes(y_filtered, sr)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/Segmentation/seg.py", line 149, in segment_notes
+    segs = self.calculate_new_notes(rms_vals, 512, sr)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/Segmentation/seg.py", line 54, in calculate_new_notes
+    if rms_vals[j] > rms_vals[j - 1] and rms_vals[j] > rms_vals[j + 1]:  # Local peak
+                                                       ~~~~~~~~^^^^^^^
+IndexError: index 722 is out of bounds for axis 0 with size 722
+
+INFO 2025-04-02 10:24:20,940 views 30158 123145547083776 Script completed with return code 1
+WARNING 2025-04-02 10:24:20,941 log 30158 123145547083776 Bad Request: /run-script/
+WARNING 2025-04-02 10:24:20,941 basehttp 30158 123145547083776 "POST /run-script/ HTTP/1.1" 400 1088
+INFO 2025-04-02 10:25:40,297 views 30158 123145547083776 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743603939.mid
+
+ERROR 2025-04-02 10:25:40,297 views 30158 123145547083776 Script error output: /Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-02 10:25:40,297 views 30158 123145547083776 Script completed with return code 0
+INFO 2025-04-02 10:25:40,940 basehttp 30158 123145547083776 "POST /run-script/ HTTP/1.1" 200 137
+WARNING 2025-04-02 10:25:48,336 log 30158 123145547083776 Not Found: /favicon.ico
+WARNING 2025-04-02 10:25:48,337 basehttp 30158 123145547083776 "GET /favicon.ico HTTP/1.1" 404 3888
+INFO 2025-04-02 10:26:44,517 views 30158 123145547083776 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743604004.mid
+
+ERROR 2025-04-02 10:26:44,518 views 30158 123145547083776 Script error output: /Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-02 10:26:44,518 views 30158 123145547083776 Script completed with return code 0
+INFO 2025-04-02 10:26:45,272 basehttp 30158 123145547083776 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-04-02 10:28:05,845 basehttp 30158 123145547083776 "GET / HTTP/1.1" 200 14853
+INFO 2025-04-02 10:30:24,462 basehttp 30158 123145547083776 "GET / HTTP/1.1" 200 14853
+INFO 2025-04-02 10:31:42,070 views 30158 123145547083776 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743604301.mid
+
+ERROR 2025-04-02 10:31:42,070 views 30158 123145547083776 Script error output: /Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-02 10:31:42,070 views 30158 123145547083776 Script completed with return code 0
+INFO 2025-04-02 10:31:42,774 basehttp 30158 123145547083776 "POST /run-script/ HTTP/1.1" 200 137
+WARNING 2025-04-02 10:31:50,001 log 30158 123145547083776 Not Found: /favicon.ico
+WARNING 2025-04-02 10:31:50,001 basehttp 30158 123145547083776 "GET /favicon.ico HTTP/1.1" 404 3888
+INFO 2025-04-02 10:37:36,350 basehttp 30158 123145547083776 "GET / HTTP/1.1" 200 14853
+INFO 2025-04-02 10:37:48,382 views 30158 123145547083776 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743604668.mid
+
+ERROR 2025-04-02 10:37:48,383 views 30158 123145547083776 Script error output: /Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-02 10:37:48,383 views 30158 123145547083776 Script completed with return code 0
+ERROR 2025-04-02 10:37:48,612 log 30158 123145547083776 Internal Server Error: /run-script/
+ERROR 2025-04-02 10:37:48,612 basehttp 30158 123145547083776 "POST /run-script/ HTTP/1.1" 500 1023
+INFO 2025-04-02 10:38:38,268 views 30158 123145547083776 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743604717.mid
+
+ERROR 2025-04-02 10:38:38,269 views 30158 123145547083776 Script error output: /Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-02 10:38:38,269 views 30158 123145547083776 Script completed with return code 0
+ERROR 2025-04-02 10:38:38,527 log 30158 123145547083776 Internal Server Error: /run-script/
+ERROR 2025-04-02 10:38:38,528 basehttp 30158 123145547083776 "POST /run-script/ HTTP/1.1" 500 1023
+INFO 2025-04-02 10:45:20,957 autoreload 30675 140704589352384 Watching for file changes with StatReloader
+INFO 2025-04-02 10:45:47,873 views 30675 123145442050048 Script output: 
+ERROR 2025-04-02 10:45:47,873 views 30675 123145442050048 Script error output: /Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 75, in <module>
+    result = generate_midi(audio_file_path,)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 29, in generate_midi
+    rms_vals, sr, og_signal, segs = segmentation.segment_notes(y_filtered, sr)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/Segmentation/seg.py", line 149, in segment_notes
+    segs = self.calculate_new_notes(rms_vals, 512, sr)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/Segmentation/seg.py", line 54, in calculate_new_notes
+    if rms_vals[j] > rms_vals[j - 1] and rms_vals[j] > rms_vals[j + 1]:  # Local peak
+                                                       ~~~~~~~~^^^^^^^
+IndexError: index 718 is out of bounds for axis 0 with size 718
+
+INFO 2025-04-02 10:45:47,873 views 30675 123145442050048 Script completed with return code 1
+WARNING 2025-04-02 10:45:47,874 log 30675 123145442050048 Bad Request: /run-script/
+WARNING 2025-04-02 10:45:47,875 basehttp 30675 123145442050048 "POST /run-script/ HTTP/1.1" 400 1583
+INFO 2025-04-02 10:48:18,883 basehttp 30675 123145442050048 "GET / HTTP/1.1" 200 14853
+INFO 2025-04-02 10:48:27,866 views 30675 123145442050048 Script output: 
+ERROR 2025-04-02 10:48:27,867 views 30675 123145442050048 Script error output: /Users/user/Documents/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/user/Documents/capstone/capstone/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Traceback (most recent call last):
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 75, in <module>
+    result = generate_midi(audio_file_path,)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/main.py", line 29, in generate_midi
+    rms_vals, sr, og_signal, segs = segmentation.segment_notes(y_filtered, sr)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/Segmentation/seg.py", line 149, in segment_notes
+    segs = self.calculate_new_notes(rms_vals, 512, sr)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Documents/capstone/scripts/18500-Capstone/Segmentation/seg.py", line 54, in calculate_new_notes
+    if j < len(rms_vals) and j >= 1 and rms_vals[j] > rms_vals[j - 1] and rms_vals[j] > rms_vals[j + 1]:  # Local peak
+                                                                                        ~~~~~~~~^^^^^^^
+IndexError: index 718 is out of bounds for axis 0 with size 718
+
+INFO 2025-04-02 10:48:27,867 views 30675 123145442050048 Script completed with return code 1
+WARNING 2025-04-02 10:48:27,868 log 30675 123145442050048 Bad Request: /run-script/
+WARNING 2025-04-02 10:48:27,868 basehttp 30675 123145442050048 "POST /run-script/ HTTP/1.1" 400 1649
+INFO 2025-04-02 10:58:21,641 basehttp 30675 123145442050048 "GET / HTTP/1.1" 200 14853
+INFO 2025-04-02 10:59:25,112 views 30675 123145442050048 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743605964.mid
+
+ERROR 2025-04-02 10:59:25,114 views 30675 123145442050048 Script error output: 
+INFO 2025-04-02 10:59:25,114 views 30675 123145442050048 Script completed with return code 0
+INFO 2025-04-02 10:59:26,365 basehttp 30675 123145442050048 "POST /run-script/ HTTP/1.1" 200 137
+WARNING 2025-04-02 10:59:36,081 log 30675 123145442050048 Not Found: /favicon.ico
+WARNING 2025-04-02 10:59:36,082 basehttp 30675 123145442050048 "GET /favicon.ico HTTP/1.1" 404 3888
+INFO 2025-04-02 11:01:43,695 basehttp 30675 123145442050048 "GET / HTTP/1.1" 200 14853
+WARNING 2025-04-02 11:17:00,919 log 30675 123145442050048 Not Found: /favicon.ico
+WARNING 2025-04-02 11:17:00,921 basehttp 30675 123145442050048 "GET /favicon.ico HTTP/1.1" 404 3888
+WARNING 2025-04-02 11:17:13,600 log 30675 123145442050048 Forbidden (CSRF token missing.): /upload-audio/
+WARNING 2025-04-02 11:17:13,601 basehttp 30675 123145442050048 "POST /upload-audio/ HTTP/1.1" 403 2491
+INFO 2025-04-02 11:17:54,451 views 30675 123145442050048 Script output: /Users/user/Documents/capstone/midi_files/melody_anonymous_1743607074.mid
+
+ERROR 2025-04-02 11:17:54,451 views 30675 123145442050048 Script error output: 
+INFO 2025-04-02 11:17:54,451 views 30675 123145442050048 Script completed with return code 0
+INFO 2025-04-02 11:17:55,438 basehttp 30675 123145442050048 "POST /run-script/ HTTP/1.1" 200 137

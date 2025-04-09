@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    {% load static %}
+    <link href="{% static 'base.css' %}" rel="stylesheet" type="text/css">
+    
+</head>
+    <body class="background">
+        <div class="heading">
+            <a href="{% url 'homepage' %}" id="main-title">Write On Cue</a>
+            <a href="{% url 'transcriptions' %}" id="btn-transcriptions">Past Transcriptions</a>
+
+            <div class="profile-icon" id="profile-icon">
+                {% load static %}
+                <img src="{%static 'images/profile.png' %}" id= "profile_icon">
+                <div class="panel" id="panel">
+                    <a href="{% url 'profile' %}" id="id_profile_link">
+                        {{user.first_name}} {{user.last_name}}
+                    </a>
+                    <form method="post" action="{% url 'logout' %}">
+                        {% csrf_token %}
+                        <button id="id_nav_logout">Log Out</button>
+                   </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+{% block content %}
+<div class="transcriptions-container">
+    <h1>Your Past Transcriptions</h1>
+    
+    {% if transcriptions %}
+    <div class="transcriptions-list">
+        {% for item in transcriptions %}
+        <div class="transcription-item">
+            <div class="transcription-header">
+                <p class="transcription-date">{{ item.created_at|date:"F j, Y H:i" }}</p>
+                <audio controls src="{{ item.audio_file.url }}"></audio>
+            </div>
+            <button 
+                onclick="viewSheetMusic('{{ item.midi_data|escapejs }}')"
+                class="btn-view-sheet">
+                View Sheet Music
+            </button>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p>No transcriptions yet. Record something and generate sheet music!</p>
+    {% endif %}
+</div>
+
+<script>
+function viewSheetMusic(midiData) {
+    // Store MIDI data for the viewer page
+    sessionStorage.setItem('last_midi_output', midiData);
+    
+    // Redirect to the sheet music viewer
+    window.location.href = "{% url 'sheet_music_viewer' %}";
+}
+</script>
+{% endblock %}

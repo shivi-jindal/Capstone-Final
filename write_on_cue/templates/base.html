@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    {% load static %}
+    <link href="{% static 'base.css' %}" rel="stylesheet" type="text/css">
+    
+</head>
+    <body class="background">
+        <div class="heading">
+            <a href="{% url 'homepage' %}" id="main-title">Write On Cue</a>
+            <a href="{% url 'transcriptions' %}" id="btn-transcriptions">Past Transcriptions</a>
+
+            <div class="profile-icon" id="profile-icon">
+                {% load static %}
+                <img src="{%static 'images/profile.png' %}" id= "profile_icon">
+                <div class="panel" id="panel">
+                    <a href="{% url 'profile' %}" id="id_profile_link">
+                        {{user.first_name}} {{user.last_name}}
+                    </a>
+                    <form method="post" action="{% url 'logout' %}">
+                        {% csrf_token %}
+                        <button id="id_nav_logout">Log Out</button>
+                   </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-container">
+            <div clas="left-side">
+                <div class="slider-container">
+                    <label id="bpm-slider">Input Metronome Speed (BPM): <span id="bpm-value">60</span></label>
+                    <input type="range" id="bpm-slider-input" class="metronome-slider" min="40" max="200" value="60">
+                    <button id="startMetronome">Start</button>
+                    <button id="stopMetronome">Stop</button>
+                    
+
+                    <audio id="metronomeSound">
+                        <source src="static/metronome.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="container-wrapper">
+                    <div class="audio-section">
+                        <h3 class="audio-title">Flute Audio</h3>
+                        <input type="file" id="fluteUpload" class="file-input">
+                        <div class="button-group">
+                            <button id="fluteStartRecord" class="btn btn-start">Start Recording</button>
+                            <button id="fluteStopRecord" disabled class="btn btn-stop">Stop Recording</button>
+                            <button id="fluteRedo" disabled class="btn btn-redo">Redo</button>
+                        </div>
+                        <audio id="fluteAudioPlayer" controls class="audio-player"></audio>
+                    </div>
+                    
+                    <div class="audio-section">
+                        <h3 class="audio-title">Background Audio</h3>
+                        <input type="file" id="backgroundUpload" class="file-input">
+                        <div class="button-group">
+                            <button id="backgroundStartRecord" class="btn btn-start">Start Recording</button>
+                            <button id="backgroundStopRecord" disabled class="btn btn-stop">Stop Recording</button>
+                            <button id="backgroundRedo" disabled class="btn btn-redo">Redo</button>
+                        </div>
+                        <audio id="backgroundAudioPlayer" controls class="audio-player"></audio>
+                    </div>
+                </div>
+                <div class="generate-wrapper">
+                    <button id="run-script-button">Generate Sheet Music!</button>
+                    <p id="output"></p>     
+                </div>
+
+                <div id="embed-container"></div>
+                
+                <script src="https://prod.flat-cdn.com/embed-js/v1.5.1/embed.min.js"></script>
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script>
+                    let fluteRecorder, bgRecorder;
+                    let fluteChunks = [], bgChunks = [];
+                    let metronomeInterval;
+                    const metronomeSound = document.getElementById("metronomeSound");
+                    const bpmSlider = document.getElementById("bpm-slider-input");
+                    const bpmValueDisplay = document.getElementById("bpm-value");
+
+                    $(document).ready(function() {
+                        // Function to get the CSRF token from the cookie
+                        function getCookie(name) {
+                            let cookieValue = null;
+                            if (document.cookie && document.cookie !== '') {
+                                const cookies = document.cookie.split(';');
+                                for (let i = 0; i < cookies.length; i++) {
+                                    const cookie = cookies[i].trim();
+                                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                                        break;
+                                    }
+                                }
+                            }
+                            return cookieValue;
+                        }
+
+                        // Set the CSRF token in the AJAX headers
+                        const csrftoken = getCookie('csrftoken');
+
+                        $('#run-script-button').click(async function() {
+                            // Get the selected audio file (either uploaded or recorded)
+                            const audioFile = document.getElementById("fluteAudioPlayer").src;
+
+                            if (!audioFile) {
+                                alert("Please upload or record an audio file first.");
+                                return;
+                            }
+
+                            // Create a FormData object to send the file
+                            const formData = new FormData();
+                            const fileResponse = await fetch(audioFile);
+                            const blob = await fileResponse.blob();
+                            formData.append("audio_file", blob, "flute_audio.wav");
+
+                            const serverResponse = await fetch("/run-script/", {
+                                method: "POST",
+                                headers: {
+                                    "X-CSRFToken": csrftoken 
+                                },
+                                body: formData
+                            });
+
+                            const data = await serverResponse.json();
+                            
+                            if (data.status === 'success') {
+                                // Extract the score ID from the response URL
+                                const scoreId = data.score_url.split('/')[4].split('-')[0]; 
+                                console.log("Score ID:", scoreId);
+                                
+                                //Flat.io Embed
+                                var container = document.getElementById('embed-container');
+                                var embed = new Flat.Embed(container, {
+                                    score: scoreId, 
+                                    embedParams: {
+                                        mode: 'edit',
+                                        appId: '67e8651eeed18ca5cccde423', 
+                                        branding: false,  
+                                        controlsPosition: 'top', 
+                                        width: '150%',
+                                        height: '100%', 
+                                    }
+                                });
+
+                            } else {
+                                alert(data.message || "Error processing MIDI file");
+                            }
+                        });
+                    });
+
+                    // Function to start recording
+                    async function startRecording(type) {
+                        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                        const recorder = new MediaRecorder(stream);
+                        
+                        if (type === "flute") {
+                            fluteRecorder = recorder;
+                            fluteChunks = [];
+                            document.getElementById("fluteUpload").disabled = true; // Disable upload
+                        } else {
+                            bgRecorder = recorder;
+                            bgChunks = [];
+                            document.getElementById("backgroundUpload").disabled = true; // Disable upload
+                        }
+
+                        recorder.start();
+
+                        // Disable start recording, enable stop button
+                        document.getElementById(`${type}StartRecord`).disabled = true;
+                        document.getElementById(`${type}StopRecord`).disabled = false;
+
+                        recorder.ondataavailable = (event) => {
+                            if (type === "flute") {
+                                fluteChunks.push(event.data);
+                            } else {
+                                bgChunks.push(event.data);
+                            }
+                        };
+
+                        recorder.onstop = async () => {
+                            const audioBlob = new Blob(type === "flute" ? fluteChunks : bgChunks, { type: "audio/wav" });
+                            const formData = new FormData();
+                            formData.append("audio_file", audioBlob, `${type}_recording.wav`);
+
+                            // Send to Django backend
+                            await fetch("/upload-audio/", {
+                                method: "POST",
+                                body: formData
+                            });
+
+                            // Play recorded audio
+                            const audioURL = URL.createObjectURL(audioBlob);
+                            document.getElementById(`${type}AudioPlayer`).src = audioURL;
+
+                            // Disable upload button until redo is clicked
+                            document.getElementById(`${type}Upload`).disabled = true;
+                            document.getElementById(`${type}StartRecord`).disabled = false;
+                            document.getElementById(`${type}StopRecord`).disabled = true;
+                            document.getElementById(`${type}Redo`).disabled = false; // Enable redo button
+                        };
+                    }
+
+                    // Function to handle file upload
+                    function handleFileUpload(event, type) {
+                        const file = event.target.files[0];
+                        if (file) {
+                            // Disable recording buttons
+                            document.getElementById(`${type}StartRecord`).disabled = true;
+                            document.getElementById(`${type}StopRecord`).disabled = true;
+
+                            // Play uploaded file
+                            const fileURL = URL.createObjectURL(file);
+                            document.getElementById(`${type}AudioPlayer`).src = fileURL;
+
+                            // Enable redo button
+                            document.getElementById(`${type}Redo`).disabled = false;
+                        }
+                    }
+
+                    // Function to reset both options
+                    function resetOptions(type) {
+                        document.getElementById(`${type}Upload`).disabled = false; // Re-enable upload
+                        document.getElementById(`${type}StartRecord`).disabled = false;
+                        document.getElementById(`${type}AudioPlayer`).src = "";
+                        document.getElementById(`${type}Redo`).disabled = true; // Disable redo until another action is taken
+                    }
+
+                    function playMetronome() {
+                        if (metronomeSound.paused) {
+                            metronomeSound.currentTime = 0;
+                            metronomeSound.play();
+                        }
+                    }
+
+                    function startMetronome() {
+                        let bpm = parseInt(bpmSlider.value);
+                        let interval = 60000 / bpm;  // Convert BPM to milliseconds per beat
+
+                        if (metronomeInterval) {
+                            clearInterval(metronomeInterval);
+                        }
+
+                        metronomeInterval = setInterval(playMetronome, interval);
+                        playMetronome();
+                    }
+
+                    function stopMetronome() {
+                        if (metronomeInterval) {
+                            clearInterval(metronomeInterval);
+                            metronomeInterval = null; // Reset the interval variable
+                        }
+                        metronomeSound.pause();
+                        metronomeSound.currentTime = 0;
+                    }
+    
+
+                    // Event Listeners
+                    document.getElementById("fluteStartRecord").addEventListener("click", () => startRecording("flute"));
+                    document.getElementById("fluteStopRecord").addEventListener("click", () => fluteRecorder.stop());
+                    document.getElementById("fluteUpload").addEventListener("change", (event) => handleFileUpload(event, "flute"));
+                    document.getElementById("fluteRedo").addEventListener("click", () => resetOptions("flute"));
+
+                    document.getElementById("backgroundStartRecord").addEventListener("click", () => startRecording("background"));
+                    document.getElementById("backgroundStopRecord").addEventListener("click", () => bgRecorder.stop());
+                    document.getElementById("backgroundUpload").addEventListener("change", (event) => handleFileUpload(event, "background"));
+                    document.getElementById("backgroundRedo").addEventListener("click", () => resetOptions("background"));
+
+                    bpmSlider.addEventListener("input", (event) => {
+                        bpmValueDisplay.textContent = event.target.value; // Update the displayed BPM value
+                        if (metronomeInterval) {
+                            // Update the interval while the metronome is running
+                            startMetronome();
+                        }
+                    });
+
+                    document.getElementById("stopMetronome").addEventListener("click", stopMetronome);
+                    document.getElementById("startMetronome").addEventListener("click", startMetronome);
+                    
+                    //ISSUES: speed isnt changing and cant hear metronome in audio
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
