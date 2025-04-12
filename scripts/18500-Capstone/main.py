@@ -9,10 +9,20 @@ import pretty_midi
 import os 
 import sys
 import time
+import logging
+#logging.basicConfig(
+#    level=logging.DEBUG,
+#    format='%(asctime)s - %(levelname)s - %(message)s',
+#    handlers=[
+#        logging.StreamHandler(sys.stdout),  # Log to console
+#        logging.FileHandler('midi_generator.log')  # Log to file
+#    ]
+#)
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-#
-def generate_midi(audio_file_path, user_id=None, output_dir=None):
-    BPM = 120  #can be adjusted
+
+def generate_midi(audio_file_path, bpm=120, user_id=None, output_dir=None):
+    BPM = int(float(bpm)) 
+    #logging.debug(f"Generating MIDI with BPM: {BPM}, (type: {type(BPM)}")
     SECONDS_PER_BEAT = 60 / BPM  
 
     #initialize all required classes
@@ -20,7 +30,7 @@ def generate_midi(audio_file_path, user_id=None, output_dir=None):
     segmentation = Segmentation()
     rhythm = Rhythm()
     pitch = Pitch()
-    midi = pretty_midi.PrettyMIDI()
+    midi = pretty_midi.PrettyMIDI(initial_tempo=BPM)
 
     #pass the signal through a bandpass filter
     y_filtered, sr = denoising.noise_suppression_pipeline(audio_file_path)
@@ -70,10 +80,10 @@ if __name__ == "__main__":
     import sys
     if len(sys.argv) > 1:
         audio_file_path = sys.argv[1]
-        user = sys.argv[2]
-        # Call your function with the audio file path
-        result = generate_midi(audio_file_path,)
-        print(result)  # This will be captured by subprocess
+        bpm = sys.argv[2] if len(sys.argv) > 2 else 120  # Default to 120 if not provided
+        user = sys.argv[3] if len(sys.argv) > 3 else "anonymous"
+        result = generate_midi(audio_file_path, bpm, user)
+        print(result)
     else:
         print("Error: No audio file path provided", file=sys.stderr)
         sys.exit(1)

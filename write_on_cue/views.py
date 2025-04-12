@@ -115,18 +115,21 @@ def run_script(request):
         try:
             # Save the uploaded audio file to a temporary location
             audio_file = request.FILES['audio_file']
+            bpm = request.POST.get('bpm', '120')
+            print(f"Received BPM from frontend: {bpm}")
+            
             with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp_file:
                 for chunk in audio_file.chunks():
                     tmp_file.write(chunk)
                 tmp_file_path = tmp_file.name
 
             # Path to your Python script
-            script_path = '/Users/user/Documents/capstone/scripts/18500-Capstone/main.py'
+            script_path = '../capstone/scripts/18500-Capstone/main.py'
             print(f"Running script: {script_path}") 
 
             # Run the script with the audio file path as an argument
             result = subprocess.run(
-                ['python', script_path, tmp_file_path, request.user.username if request.user.is_authenticated else None],
+                ['python', script_path, tmp_file_path, bpm, request.user.username if request.user.is_authenticated else "anonymous"],
                 capture_output=True, text=True
             )
             logger.info(f"Script output: {result.stdout}")

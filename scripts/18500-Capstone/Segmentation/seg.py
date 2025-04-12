@@ -51,7 +51,7 @@ class Segmentation:
                     # spike_times.append(time_ms[i])
                     for j in range(i + 1, len(rms_vals)):
                         # find the nearest peak from the spike
-                        if j < len(rms_vals) and j >= 1 and rms_vals[j] > rms_vals[j - 1] and rms_vals[j] > rms_vals[j + 1]:  # Local peak
+                        if j < len(rms_vals)-1 and j >= 1 and rms_vals[j] > rms_vals[j - 1] and rms_vals[j] > rms_vals[j + 1]:  # Local peak
                             peak_value = rms_vals[j]
                             spike_value = rms_vals[i]
                             # check if this was a significant increase and if spike wasn't super far away (within 150 ms)
@@ -86,7 +86,7 @@ class Segmentation:
                     # spike_times.append(time_ms[i])
                     for j in range(i + 1, len(rms_values)):
                         # find the nearest peak from the spike
-                        if j < len(rms_values) and j >= 1 and rms_values[j] > rms_values[j - 1] and rms_values[j] > rms_values[j + 1]:  # Local peak
+                        if j < len(rms_values)-1 and j >= 1 and rms_values[j] > rms_values[j - 1] and rms_values[j] > rms_values[j + 1]:  # Local peak
                             peak_value = rms_values[j]
                             spike_value = rms_values[i]
                             # check if this was a significant increase and if spike wasn't super far away (within 150 ms)
@@ -94,29 +94,6 @@ class Segmentation:
                                 valid_spikes.append(time_ms[i]) #adding in the beginning of zero time, but make add in peak time/average of the two?
                             break
 
-        # Print out the times of the near-zero RMS spikes
-        # print(f"Times where RMS is near zero (within epsilon = {epsilon}):")
-        # for spike in valid_spikes:
-        #     print(f"Spike at time {spike/1000:.3f} milliseconds")
-
-        # plt.figure(figsize=(10, 6))
-        # plt.plot(time_ms, rms_values, label='RMS')
-
-
-        # # Mark the steep RMS increase after silence with vertical lines
-        # for spike_time in valid_spikes:
-        #     # Find the index of the spike time in the time array
-        #     spike_index = np.where(time_ms == spike_time)[0][0]
-            
-        #     # Plot a vertical line at the spike time
-        #     plt.axvline(x=spike_time, color='red', linestyle='-', lw=2)
-
-        # plt.title('RMS of Audio Signal')
-        # plt.xlabel('Time (milliseconds)')
-        # plt.ylabel('RMS')
-        # plt.grid(True)
-        # plt.legend()
-        # plt.show()
         return valid_spikes
 
     def plot_rms_and_regular(self, audio_signal, rms_values, sr, hop_size):
@@ -150,8 +127,4 @@ class Segmentation:
         segs += [len(og_signal)]
         return rms_vals, sr, og_signal, segs
 
-# rms_vals, sr, og_signal = perform_rms("../Audio/Songs/hotcross_interface.m4a")
-# plot_rms(rms_vals, sr, 512)
-# plot_rms_and_regular(og_signal, rms_vals, sr, 512)
-#segs = calculate_new_notes(rms_vals, 512, sr)
     

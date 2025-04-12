@@ -36,7 +36,7 @@
                     
 
                     <audio id="metronomeSound">
-                        <source src="static/metronome.wav" type="audio/wav">
+                        <source src="static/tick.wav" type="audio/wav">
                     </audio>
                 </div>
                 <div class="container-wrapper">
@@ -101,7 +101,9 @@
 
                         $('#run-script-button').click(async function() {
                             // Get the selected audio file (either uploaded or recorded)
+                            console.log("Button clicked!");
                             const audioFile = document.getElementById("fluteAudioPlayer").src;
+                            const bpmValue = document.getElementById("bpm-slider-input").value;
 
                             if (!audioFile) {
                                 alert("Please upload or record an audio file first.");
@@ -113,6 +115,7 @@
                             const fileResponse = await fetch(audioFile);
                             const blob = await fileResponse.blob();
                             formData.append("audio_file", blob, "flute_audio.wav");
+                            formData.append("bpm", bpmValue);
 
                             const serverResponse = await fetch("/run-script/", {
                                 method: "POST",
@@ -126,22 +129,34 @@
                             
                             if (data.status === 'success') {
                                 // Extract the score ID from the response URL
-                                const scoreId = data.score_url.split('/')[4].split('-')[0]; 
+                                const scoreId = data.score_url.split('/')[4].split('-')[0];
+                                console.log("hey"); 
                                 console.log("Score ID:", scoreId);
                                 
                                 //Flat.io Embed
                                 var container = document.getElementById('embed-container');
-                                var embed = new Flat.Embed(container, {
-                                    score: scoreId, 
-                                    embedParams: {
-                                        mode: 'edit',
-                                        appId: '67e8651eeed18ca5cccde423', 
-                                        branding: false,  
-                                        controlsPosition: 'top', 
-                                        width: '150%',
-                                        height: '100%', 
-                                    }
-                                });
+                                //var embed = new Flat.Embed(container, {
+                                //    score: scoreId, 
+                                //    embedParams: {
+                                //        mode: 'edit',
+                                //        appId: '67e8651eeed18ca5cccde423', 
+                                //        branding: false,  
+                                //        controlsPosition: 'top', 
+                                //        width: '150%',
+                                //        height: '100%', 
+                                //    }
+                                //});
+                                //src="https://flat.io/embed/${scoreId}?mode=edit&appId=67f9c52e624bc6396311f1d0&toolbar=full&forceAuth=true"
+                                container.innerHTML = `
+                                    <iframe 
+                                        src="https://flat.io/embed/${scoreId}?mode=edit&appId=67f9c52e624bc6396311f1d0&toolbar=full&forceAuth=true" 
+                                        height="250" 
+                                        width="100%" 
+                                        frameborder="0"
+                                        allowfullscreen
+                                        allow="autoplay; midi"
+                                    ></iframe>
+                                `;
 
                             } else {
                                 alert(data.message || "Error processing MIDI file");
@@ -233,26 +248,26 @@
                         }
                     }
 
-                    function startMetronome() {
-                        let bpm = parseInt(bpmSlider.value);
-                        let interval = 60000 / bpm;  // Convert BPM to milliseconds per beat
+                    // function startMetronome() {
+                    //     let bpm = parseInt(bpmSlider.value);
+                    //     let interval = 60000 / bpm;  // Convert BPM to milliseconds per beat
 
-                        if (metronomeInterval) {
-                            clearInterval(metronomeInterval);
-                        }
+                    //     if (metronomeInterval) {
+                    //         clearInterval(metronomeInterval);
+                    //     }
 
-                        metronomeInterval = setInterval(playMetronome, interval);
-                        playMetronome();
-                    }
+                    //     metronomeInterval = setInterval(playMetronome, interval);
+                    //     playMetronome();
+                    // }
 
-                    function stopMetronome() {
-                        if (metronomeInterval) {
-                            clearInterval(metronomeInterval);
-                            metronomeInterval = null; // Reset the interval variable
-                        }
-                        metronomeSound.pause();
-                        metronomeSound.currentTime = 0;
-                    }
+                    // function stopMetronome() {
+                    //     if (metronomeInterval) {
+                    //         clearInterval(metronomeInterval);
+                    //         metronomeInterval = null; // Reset the interval variable
+                    //     }
+                    //     metronomeSound.pause();
+                    //     metronomeSound.currentTime = 0;
+                    // }
     
 
                     // Event Listeners
@@ -266,20 +281,48 @@
                     document.getElementById("backgroundUpload").addEventListener("change", (event) => handleFileUpload(event, "background"));
                     document.getElementById("backgroundRedo").addEventListener("click", () => resetOptions("background"));
 
-                    bpmSlider.addEventListener("input", (event) => {
-                        bpmValueDisplay.textContent = event.target.value; // Update the displayed BPM value
+                    // bpmSlider.addEventListener("input", (event) => {
+                    //     bpmValueDisplay.textContent = event.target.value; // Update the displayed BPM value
+                    //     if (metronomeInterval) {
+                    //         // Update the interval while the metronome is running
+                    //         startMetronome();
+                    //     }
+                    // });
+
+                    // document.getElementById("stopMetronome").addEventListener("click", stopMetronome);
+                    // document.getElementById("startMetronome").addEventListener("click", startMetronome);
+
+                    function playMetronome() {
+                        metronomeSound.currentTime = 0;
+                        metronomeSound.play();
+                    }
+
+                    function startMetronome() {
+                        const bpm = parseInt(bpmSlider.value);
+                        const interval = 60000 / bpm;
+
+                        if (metronomeInterval) clearInterval(metronomeInterval);
+                        metronomeInterval = setInterval(playMetronome, interval);
+                        playMetronome();
+                    }
+
+                    function stopMetronome() {
+                        clearInterval(metronomeInterval);
+                        metronomeInterval = null;
+                    }
+
+                    bpmSlider.addEventListener("input", () => {
+                        bpmValueDisplay.textContent = bpmSlider.value;
                         if (metronomeInterval) {
-                            // Update the interval while the metronome is running
-                            startMetronome();
+                            startMetronome();  // restart with new BPM
                         }
                     });
 
-                    document.getElementById("stopMetronome").addEventListener("click", stopMetronome);
                     document.getElementById("startMetronome").addEventListener("click", startMetronome);
-                    
-                    //ISSUES: speed isnt changing and cant hear metronome in audio
+                    document.getElementById("stopMetronome").addEventListener("click", stopMetronome);
                 </script>
             </div>
         </div>
     </body>
 </html>
+

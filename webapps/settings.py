@@ -90,9 +90,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'social_django',
-    'write_on_cue'
+    'write_on_cue',
+    'channels'
 ]
+
+ASGI_APPLICATION = 'webapps.asgi.application'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
