@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     {% load static %}
     <link href="{% static 'base.css' %}" rel="stylesheet" type="text/css">
+    <script src="https://flat.io/embed.js"></script>
+    <script src="https://prod.flat-cdn.com/embed-js/v1.5.1/embed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
 </head>
     <body class="background">
@@ -67,10 +70,11 @@
                     <p id="output"></p>     
                 </div>
 
-                <div id="embed-container"></div>
+                <div id="embed-container">
+
+                </div>
                 
-                <script src="https://prod.flat-cdn.com/embed-js/v1.5.1/embed.min.js"></script>
-                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                
                 <script>
                     let fluteRecorder, bgRecorder;
                     let fluteChunks = [], bgChunks = [];
@@ -128,35 +132,15 @@
                             const data = await serverResponse.json();
                             
                             if (data.status === 'success') {
-                                // Extract the score ID from the response URL
-                                const scoreId = data.score_url.split('/')[4].split('-')[0];
+                                const scoreId = data.score_url
+                                // .split('/')[4].split('-')[0];
                                 console.log("hey"); 
                                 console.log("Score ID:", scoreId);
                                 
                                 //Flat.io Embed
                                 var container = document.getElementById('embed-container');
-                                //var embed = new Flat.Embed(container, {
-                                //    score: scoreId, 
-                                //    embedParams: {
-                                //        mode: 'edit',
-                                //        appId: '67e8651eeed18ca5cccde423', 
-                                //        branding: false,  
-                                //        controlsPosition: 'top', 
-                                //        width: '150%',
-                                //        height: '100%', 
-                                //    }
-                                //});
-                                //src="https://flat.io/embed/${scoreId}?mode=edit&appId=67f9c52e624bc6396311f1d0&toolbar=full&forceAuth=true"
                                 container.innerHTML = `
-                                    <iframe 
-                                        src="https://flat.io/embed/${scoreId}?mode=edit&appId=67f9c52e624bc6396311f1d0&toolbar=full&forceAuth=true" 
-                                        height="250" 
-                                        width="100%" 
-                                        frameborder="0"
-                                        allowfullscreen
-                                        allow="autoplay; midi"
-                                    ></iframe>
-                                `;
+                                    <iframe src="https://flat.io/embed/67fac2e036005dfb273f4c01?mode=edit&appId=67faa5ba36005dfb273d6941&sharingKey=2ef769d9137351ae55fc9b137c7f576df883670524228bea7dec5a682deef061445626c5ee13f54d3579332da9fc2a6966ee9b5266a2330a74dc42dce883b050" height="450" width="100%" frameBorder="0" allowfullscreen allow="autoplay; midi"></iframe>`;
 
                             } else {
                                 alert(data.message || "Error processing MIDI file");

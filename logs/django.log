@@ -2997,3 +2997,228 @@ ERROR 2025-04-12 14:14:22,937 views 69592 6196588544 Script error output: /Users
 
 INFO 2025-04-12 14:14:22,937 views 69592 6196588544 Script completed with return code 0
 INFO 2025-04-12 14:14:23,540 basehttp 69592 6196588544 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-04-12 14:59:56,385 autoreload 72620 8592984128 Watching for file changes with StatReloader
+INFO 2025-04-12 15:00:00,216 basehttp 72620 6163247104 "GET / HTTP/1.1" 200 17132
+INFO 2025-04-12 15:00:09,989 views 72620 6163247104 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744484409.mid
+
+ERROR 2025-04-12 15:00:09,990 views 72620 6163247104 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 15:00:09,990 views 72620 6163247104 Script completed with return code 0
+INFO 2025-04-12 15:00:10,586 basehttp 72620 6163247104 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-04-12 15:05:40,953 basehttp 72620 6163247104 "GET / HTTP/1.1" 200 18222
+INFO 2025-04-12 15:05:51,055 views 72620 6163247104 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744484750.mid
+
+ERROR 2025-04-12 15:05:51,055 views 72620 6163247104 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 15:05:51,056 views 72620 6163247104 Script completed with return code 0
+INFO 2025-04-12 15:05:51,579 basehttp 72620 6163247104 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-04-12 15:07:59,810 basehttp 72620 6163247104 "GET / HTTP/1.1" 200 18222
+INFO 2025-04-12 15:08:09,571 views 72620 6163247104 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744484889.mid
+
+ERROR 2025-04-12 15:08:09,571 views 72620 6163247104 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 15:08:09,572 views 72620 6163247104 Script completed with return code 0
+INFO 2025-04-12 15:08:10,316 basehttp 72620 6163247104 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-04-12 15:09:47,973 views 72620 6163247104 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744484987.mid
+
+ERROR 2025-04-12 15:09:47,973 views 72620 6163247104 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 15:09:47,973 views 72620 6163247104 Script completed with return code 0
+INFO 2025-04-12 15:09:48,713 basehttp 72620 6163247104 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-04-12 15:45:28,542 basehttp 72620 6163247104 "GET / HTTP/1.1" 200 17993
+INFO 2025-04-12 15:45:28,565 basehttp 72620 6163247104 "GET /static/tick.wav HTTP/1.1" 304 0
+INFO 2025-04-12 15:45:36,824 views 72620 6163247104 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744487136.mid
+
+ERROR 2025-04-12 15:45:36,824 views 72620 6163247104 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 15:45:36,824 views 72620 6163247104 Script completed with return code 0
+INFO 2025-04-12 15:45:37,422 basehttp 72620 6163247104 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-04-12 15:48:36,679 views 72620 6163247104 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744487316.mid
+
+ERROR 2025-04-12 15:48:36,680 views 72620 6163247104 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 15:48:36,680 views 72620 6163247104 Script completed with return code 0
+INFO 2025-04-12 15:48:37,222 basehttp 72620 6163247104 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-04-12 15:49:56,526 views 72620 6163247104 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744487396.mid
+
+ERROR 2025-04-12 15:49:56,527 views 72620 6163247104 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 15:49:56,527 views 72620 6163247104 Script completed with return code 0
+INFO 2025-04-12 15:49:57,065 basehttp 72620 6163247104 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-04-12 15:51:24,704 views 72620 6163247104 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744487484.mid
+
+ERROR 2025-04-12 15:51:24,704 views 72620 6163247104 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 15:51:24,704 views 72620 6163247104 Script completed with return code 0
+INFO 2025-04-12 15:51:25,464 basehttp 72620 6163247104 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-04-12 15:53:04,790 basehttp 72620 6163247104 "GET / HTTP/1.1" 200 16934
+INFO 2025-04-12 15:53:12,143 views 72620 6163247104 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744487591.mid
+
+ERROR 2025-04-12 15:53:12,143 views 72620 6163247104 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 15:53:12,143 views 72620 6163247104 Script completed with return code 0
+INFO 2025-04-12 15:53:12,748 basehttp 72620 6163247104 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-04-12 15:54:39,538 basehttp 72620 6163247104 "GET / HTTP/1.1" 200 16967
+INFO 2025-04-12 15:54:47,228 views 72620 6163247104 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744487686.mid
+
+ERROR 2025-04-12 15:54:47,228 views 72620 6163247104 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 15:54:47,228 views 72620 6163247104 Script completed with return code 0
+INFO 2025-04-12 15:54:47,867 basehttp 72620 6163247104 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-04-12 15:58:07,331 basehttp 72620 6163247104 "GET / HTTP/1.1" 200 16987
+INFO 2025-04-12 15:58:14,100 views 72620 6163247104 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744487893.mid
+
+ERROR 2025-04-12 15:58:14,100 views 72620 6163247104 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 15:58:14,100 views 72620 6163247104 Script completed with return code 0
+INFO 2025-04-12 15:58:14,667 basehttp 72620 6163247104 "POST /run-script/ HTTP/1.1" 200 137
+INFO 2025-04-12 16:01:14,944 views 72620 6163247104 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744488074.mid
+
+ERROR 2025-04-12 16:01:14,944 views 72620 6163247104 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 16:01:14,944 views 72620 6163247104 Script completed with return code 0
+ERROR 2025-04-12 16:01:15,116 log 72620 6163247104 Internal Server Error: /run-script/
+ERROR 2025-04-12 16:01:15,117 basehttp 72620 6163247104 "POST /run-script/ HTTP/1.1" 500 1023
+INFO 2025-04-12 16:30:27,867 autoreload 72620 8592984128 /Users/shivijindal/Desktop/18-500/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-04-12 16:30:28,305 autoreload 74216 8592984128 Watching for file changes with StatReloader
+INFO 2025-04-12 16:32:37,478 basehttp 74216 6130200576 "GET / HTTP/1.1" 200 17179
+INFO 2025-04-12 16:32:47,884 views 74216 6130200576 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744489967.mid
+
+ERROR 2025-04-12 16:32:47,884 views 74216 6130200576 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 16:32:47,884 views 74216 6130200576 Script completed with return code 0
+INFO 2025-04-12 16:32:47,885 basehttp 74216 6130200576 "POST /run-script/ HTTP/1.1" 200 103
+INFO 2025-04-12 16:33:12,063 views 74216 6130200576 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744489991.mid
+
+ERROR 2025-04-12 16:33:12,063 views 74216 6130200576 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 16:33:12,063 views 74216 6130200576 Script completed with return code 0
+INFO 2025-04-12 16:33:12,063 basehttp 74216 6130200576 "POST /run-script/ HTTP/1.1" 200 103
+INFO 2025-04-12 16:33:47,608 views 74216 6130200576 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744490027.mid
+
+ERROR 2025-04-12 16:33:47,609 views 74216 6130200576 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 16:33:47,609 views 74216 6130200576 Script completed with return code 0
+INFO 2025-04-12 16:33:47,609 basehttp 74216 6130200576 "POST /run-script/ HTTP/1.1" 200 103
+INFO 2025-04-12 16:33:57,143 basehttp 74216 6130200576 "GET / HTTP/1.1" 200 16362
+INFO 2025-04-12 16:34:04,032 views 74216 6130200576 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744490043.mid
+
+ERROR 2025-04-12 16:34:04,033 views 74216 6130200576 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 16:34:04,033 views 74216 6130200576 Script completed with return code 0
+INFO 2025-04-12 16:34:04,033 basehttp 74216 6130200576 "POST /run-script/ HTTP/1.1" 200 103
+INFO 2025-04-12 16:35:26,803 views 74216 6130200576 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744490126.mid
+
+ERROR 2025-04-12 16:35:26,803 views 74216 6130200576 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 16:35:26,803 views 74216 6130200576 Script completed with return code 0
+INFO 2025-04-12 16:35:26,804 basehttp 74216 6130200576 "POST /run-script/ HTTP/1.1" 200 103
+INFO 2025-04-12 16:38:21,153 views 74216 6130200576 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744490300.mid
+
+ERROR 2025-04-12 16:38:21,153 views 74216 6130200576 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 16:38:21,153 views 74216 6130200576 Script completed with return code 0
+INFO 2025-04-12 16:38:21,154 basehttp 74216 6130200576 "POST /run-script/ HTTP/1.1" 200 103
+INFO 2025-04-12 16:40:38,762 views 74216 6130200576 Script output: /Users/shivijindal/Desktop/18-500/capstone/midi_files/melody_shivij_1744490438.mid
+
+ERROR 2025-04-12 16:40:38,762 views 74216 6130200576 Script error output: /Users/shivijindal/Desktop/18-500/capstone/scripts/18500-Capstone/Denoising/noise_reduction.py:20: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=None)
+/Users/shivijindal/miniconda3/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+
+INFO 2025-04-12 16:40:38,762 views 74216 6130200576 Script completed with return code 0
+INFO 2025-04-12 16:40:38,762 basehttp 74216 6130200576 "POST /run-script/ HTTP/1.1" 200 103
+INFO 2025-04-12 17:02:05,656 autoreload 74216 8592984128 /Users/shivijindal/Desktop/18-500/capstone/write_on_cue/views.py changed, reloading.
+INFO 2025-04-12 17:02:06,074 autoreload 74730 8592984128 Watching for file changes with StatReloader
